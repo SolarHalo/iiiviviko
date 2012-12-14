@@ -1,8 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
-include '../PageDB.php';
-
+include '../site_path.php';
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
 $menus = $category->getAllMenu();
@@ -53,7 +50,7 @@ $(document).ready(function(){
 			var ele = $(this);
 			var id = $(this).attr("delid");
 			$.ajax({
-				'url': "/admin/ajaxoperation.php",
+				'url': "./ajaxoperation.php",
 				'data': {'method': 'delpage', 'id': id},
 				'success': function (data){
 					ele.parent("li").remove();
@@ -89,7 +86,7 @@ $(document).ready(function(){
     			?>
     			
     			<li>
-    				<a href="/admin/addimage.php?pid=<?php echo $menuInfo['id']; ?>">
+    				<a href="./addimage.php?pid=<?php echo $menuInfo['id']; ?>">
     					<img src="../images/addimage.png" alt="添加图片" />
     				</a>
     			</li>
@@ -103,7 +100,7 @@ $(document).ready(function(){
             </p>
             
             <?php if(array_key_exists('ol', $_GET)){?>
-            	<a href="/admin<?php echo $pmenu['link']?>?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];?>" class="back">&lt;&nbsp;BACK</a>
+            	<a href="./<?php echo $pmenu['link']?>?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];?>" class="back">&lt;&nbsp;BACK</a>
             <?php }?>
             
         </div>

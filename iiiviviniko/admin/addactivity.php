@@ -10,6 +10,8 @@ if(!array_key_exists('pid', $_GET)){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
+   <link href="../css/bootstrap.min.css" rel="stylesheet">
+
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
 </head>
 <body>
@@ -17,14 +19,16 @@ if(!array_key_exists('pid', $_GET)){
     <div class="headlogo"><a href="#"><img src="../images/logo.jpg" /></a></div>  
      <div class="rightbox">
      	<div class="add_content">
-    		<p style="font-size: 24px;">添加活动</p><br/><br/>
+    		 <fieldset>
+    	  <legend>添加活动</legend>
     		<form action="/admin/addactivityaction.php" method="post" enctype="application/x-www-form-urlencoded">
     			名称: <input type="text" name="name" size="50"/><br/><br/>
     			描述: <textarea name="desc" rows="4" cols="50"></textarea><br/><br/>
     			<input type="hidden" name="pid" value="<?php echo $_GET['pid'];?>" />
     			<input type="hidden" name="resource" value="<?php if(array_key_exists('HTTP_REFERER', $_SERVER)) echo $_SERVER['HTTP_REFERER']?>" />
-    			<input type="submit" value="提交"/>
+    			<input type="submit"  class="btn btn-info" value="提交"/>
     		</form>
+    	 </fieldset>
     	</div>
      </div>
 </div>

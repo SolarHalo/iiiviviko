@@ -1,7 +1,7 @@
 <?php 
-include 'load.php';
-include 'CategoryDB.php';
-include 'PageDB.php';
+define('ROOT_PATH', dirname(__FILE__));  
+
+include ROOT_PATH.'/site_path.php'; 
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -26,7 +26,7 @@ $menus = $category->getAllMenu();
     	?>
     	<div class="current" >
             <h2><?php if(count($menu['link']) > 0){
-            	echo "<a href='".$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
+            	echo "<a href='".$urlroot.$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
             } else echo $menu['name'];?></h2>
             <?php if(array_key_exists('submenu', $menu)){
             ?>

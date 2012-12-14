@@ -1,7 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
-include '../StoresDB.php';
+include '../site_path.php';
 
 $category = new Category($dbutil);
 $storedb = new Store($dbutil);
@@ -60,7 +58,7 @@ $(document).ready(function(){
 			var ele = $(this);
 			var id = $(this).attr("delid");
 			$.ajax({
-				'url': "/admin/ajaxoperation.php",
+				'url': "./ajaxoperation.php",
 				'data': {'method': 'delstore', 'id': id},
 				'success': function (data){
 					ele.parent("li").remove();

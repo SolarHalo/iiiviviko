@@ -1,9 +1,9 @@
 <?php
+ 
+include ROOT_PATH.'/config.php';
+include  ROOT_PATH.'/DBUtil.php';
 
-include 'config.php';
-include 'DbUtil.php';
-
-session_start();
+//session_start();
 
 define("OBJECT", "object");
 define("OBJECT_K", "object_k");

@@ -1,7 +1,5 @@
 <?php
-include 'load.php';
-include 'CategoryDB.php';
-include 'StoresDB.php';
+include './site_path.php';
 
 $category = new Category($dbutil);
 $storedb = new Store($dbutil);

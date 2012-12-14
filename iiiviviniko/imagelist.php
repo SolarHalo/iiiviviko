@@ -1,6 +1,5 @@
 <?php
-include 'load.php';
-include 'CategoryDB.php';
+include './site_path.php'; 
 
 $category = new Category($dbutil);
 $menus = $category->getAllMenu();

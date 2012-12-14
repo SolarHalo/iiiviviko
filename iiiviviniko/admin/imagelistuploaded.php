@@ -1,7 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
-
+include '../site_path.php';
 $categorydb = new Category($dbutil);
 
 $success = false;

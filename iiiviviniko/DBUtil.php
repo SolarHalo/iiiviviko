@@ -1,6 +1,6 @@
-<?php
+ï»¿<?php
 /**
- * Êı¾İ¿â²Ù×÷Àà
+ * æ•°æ®åº“æ“ä½œç±»
  * Enter description here ...
  * @author Administrator
  *
@@ -34,19 +34,19 @@ class DbUtil{
 	var $result;
 	
 	/**
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * Enter description here ...
-	 * @param Ö÷»úÃû $hostname
-	 * @param ÓÃ»§Ãû $username
-	 * @param ÃÜÂë $password
-	 * @param Êı¾İ¿âÃû $dbname
+	 * @param ä¸»æœºå $hostname
+	 * @param ç”¨æˆ·å $username
+	 * @param å¯†ç  $password
+	 * @param æ•°æ®åº“å $dbname
 	 */
 	function DbUtil($hostname, $username, $password, $dbname){
 		return $this->__construct($hostname, $username, $password, $dbname);
 	}
 	
 	/**
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * Enter description here ...
 	 * @param unknown_type $hostname
 	 * @param unknown_type $username
@@ -65,7 +65,7 @@ class DbUtil{
 	}
 	
 	/**
-	 * ³õÊ¼»¯±àÂë
+	 * åˆå§‹åŒ–ç¼–ç 
 	 * Enter description here ...
 	 */
 	function init_charset(){
@@ -83,7 +83,7 @@ class DbUtil{
 	
 	
 	/**
-	 * Á´½ÓÊı¾İ¿â
+	 * é“¾æ¥æ•°æ®åº“
 	 * Enter description here ...
 	 */
 	function db_connect(){
@@ -94,7 +94,7 @@ class DbUtil{
 	}
 	
 	/**
-	 * ²éÑ¯Ö´ĞĞ²éÑ¯Óï¾ä
+	 * æŸ¥è¯¢æ‰§è¡ŒæŸ¥è¯¢è¯­å¥
 	 * Enter description here ...
 	 * @param string $sql
 	 */
@@ -130,22 +130,22 @@ class DbUtil{
 	}
 	
 	/**
-	 * ²åÈëÊı¾İ
-	 * @param unknown_type $table ±í
-	 * @param unknown_type $data Êı¾İ£¬Êı¾İÄ£Ê½£¬ÒÔ ÁĞÃû->ÖµµÄ¸ñÊ½
-	 * @param unknown_type $format ¸ñÊ½»¯£¬¸ñÊ½»¯ÆäÖĞµÄÁĞ£¬Èç½«Ä³ÁĞ¸ñÊ½»¯ÎªÊı×Ö %d
+	 * æ’å…¥æ•°æ®
+	 * @param unknown_type $table è¡¨
+	 * @param unknown_type $data æ•°æ®ï¼Œæ•°æ®æ¨¡å¼ï¼Œä»¥ åˆ—å->å€¼çš„æ ¼å¼
+	 * @param unknown_type $format æ ¼å¼åŒ–ï¼Œæ ¼å¼åŒ–å…¶ä¸­çš„åˆ—ï¼Œå¦‚å°†æŸåˆ—æ ¼å¼åŒ–ä¸ºæ•°å­— %d
 	 */
 	function insert($table, $data, $format = null){
 		return $this->_insert_helper($table, $data, $format, 'INSERT');
 	}
 	
 	/**
-	 * ¸üĞÂÒ»¸ö±í
-	 * @param unknown_type $table Òª¸üĞÂµÄ±í
-	 * @param unknown_type $data Êı¾İ£¬Êı×é¸ñÊ½£¬ÒÔÁĞÃû->ÖµµÄ·½Ê½
-	 * @param unknown_type $where Ìõ¼şÓï¾ä,Êı×é¸ñÊ½
-	 * @param unknown_type $format ÖµµÄ¸ñÊ½»¯
-	 * @param unknown_type $where_format Ìõ¼şÓï¾äµÄ¸ñÊ½»¯
+	 * æ›´æ–°ä¸€ä¸ªè¡¨
+	 * @param unknown_type $table è¦æ›´æ–°çš„è¡¨
+	 * @param unknown_type $data æ•°æ®ï¼Œæ•°ç»„æ ¼å¼ï¼Œä»¥åˆ—å->å€¼çš„æ–¹å¼
+	 * @param unknown_type $where æ¡ä»¶è¯­å¥,æ•°ç»„æ ¼å¼
+	 * @param unknown_type $format å€¼çš„æ ¼å¼åŒ–
+	 * @param unknown_type $where_format æ¡ä»¶è¯­å¥çš„æ ¼å¼åŒ–
 	 */
 	function update( $table, $data, $where, $format = null, $where_format = null ) {
 		if ( ! is_array( $data ) || ! is_array( $where ) )
@@ -179,10 +179,10 @@ class DbUtil{
 	}
 	
 	/**
-	 * Ö´ĞĞÒ»ÌõÓï¾ä£¬²¢»ñÈ¡½á¹û¡£
+	 * æ‰§è¡Œä¸€æ¡è¯­å¥ï¼Œå¹¶è·å–ç»“æœã€‚
 	 * Enter description here ...
-	 * @param string $query ²éÑ¯Óï¾ä
-	 * @param string $output Êä³ö¸ñÊ½£¬object»òÊı×é
+	 * @param string $query æŸ¥è¯¢è¯­å¥
+	 * @param string $output è¾“å‡ºæ ¼å¼ï¼Œobjectæˆ–æ•°ç»„
 	 */
 	function get_results( $query = null, $output = OBJECT ) {
 
@@ -223,11 +223,11 @@ class DbUtil{
 	}
 	
 	/**
-	 * »ñÈ¡Ò»ĞĞÊı¾İ
+	 * è·å–ä¸€è¡Œæ•°æ®
 	 * Enter description here ...
-	 * @param unknown_type $query ²éÕÒÓï¾ä
-	 * @param unknown_type $output Êä³ö¸ñÊ½£¬object»òÊı×é
-	 * @param unknown_type $y µÚNĞĞ
+	 * @param unknown_type $query æŸ¥æ‰¾è¯­å¥
+	 * @param unknown_type $output è¾“å‡ºæ ¼å¼ï¼Œobjectæˆ–æ•°ç»„
+	 * @param unknown_type $y ç¬¬Nè¡Œ
 	 */
 	function get_row( $query = null, $output = OBJECT, $y = 0 ) {
 		if ( $query )
@@ -245,16 +245,16 @@ class DbUtil{
 		} elseif ( $output == ARRAY_N ) {
 			return $this->last_result[$y] ? array_values( get_object_vars( $this->last_result[$y] ) ) : null;
 		} else {
-			$this->print_error(/*WP_I18N_DB_GETROW_ERROR*/' $db->get_row(string query, output type, int offset) -- Êä³öÀàĞÍ±ØĞëÊÇÒÔÏÂÀàĞÍÖĞµÄÒ»¸ö£ºOBJECT, ARRAY_A, ARRAY_N'/*/WP_I18N_DB_GETROW_ERROR*/);
+			$this->print_error(/*WP_I18N_DB_GETROW_ERROR*/' $db->get_row(string query, output type, int offset) -- è¾“å‡ºç±»å‹å¿…é¡»æ˜¯ä»¥ä¸‹ç±»å‹ä¸­çš„ä¸€ä¸ªï¼šOBJECT, ARRAY_A, ARRAY_N'/*/WP_I18N_DB_GETROW_ERROR*/);
 		}
 	}
 	
 	/**
-	 * »ñÈ¡Ò»¸ö×Ö¶ÎÖµ
+	 * è·å–ä¸€ä¸ªå­—æ®µå€¼
 	 * Enter description here ...
-	 * @param unknown_type $query ²éÑ¯Óï¾ä
-	 * @param unknown_type $x µÚ¼¸ĞĞ
-	 * @param unknown_type $y µÚ¼¸ÁĞ
+	 * @param unknown_type $query æŸ¥è¯¢è¯­å¥
+	 * @param unknown_type $x ç¬¬å‡ è¡Œ
+	 * @param unknown_type $y ç¬¬å‡ åˆ—
 	 */
 	function get_var( $query = null, $x = 0, $y = 0 ) {
 		if ( $query )
@@ -271,7 +271,7 @@ class DbUtil{
 	
 	
 	/**
-	 * ²åÈë»òÌæ»»Óï¾ä
+	 * æ’å…¥æˆ–æ›¿æ¢è¯­å¥
 	 * Enter description here ...
 	 * @param unknown_type $table
 	 * @param unknown_type $data
@@ -300,7 +300,7 @@ class DbUtil{
 	
 	
 	/**
-	 * Ë¢ĞÂÉÏ´Î²éÑ¯µÄ»º´æ
+	 * åˆ·æ–°ä¸Šæ¬¡æŸ¥è¯¢çš„ç¼“å­˜
 	 */
 	function flush() {
 		$this->last_result = array();
@@ -309,9 +309,9 @@ class DbUtil{
 	}
 	
 	/**
-	 * ¸ñÊ½»¯sqlÓï¾ä
+	 * æ ¼å¼åŒ–sqlè¯­å¥
 	 * Enter description here ...
-	 * @param string $query sql²éÑ¯Óï¾ä
+	 * @param string $query sqlæŸ¥è¯¢è¯­å¥
 	 */
 	function prepare( $query = null ) {
 		if ( is_null( $query ) )

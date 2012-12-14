@@ -17,7 +17,7 @@ if(!array_key_exists('pid', $_GET)){
      <div class="rightbox">
      	<div class="add_content">
     		<p style="font-size: 24px;">添加图片列表</p><br/><br/>
-    		<form action="/admin/imagelistuploaded.php" method="post" enctype="multipart/form-data">
+    		<form action="./imagelistuploaded.php" method="post" enctype="multipart/form-data">
     			名称: <input type="text" name="name" size="50"/><br/><br/>
     			描述: <textarea name="desc" rows="4" cols="50"></textarea><br/><br/>
     			图片: <input type="file" name="img" /><br/><br/>

@@ -1,6 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
+include '../site_path.php';
 
 $categorydb = new Category($dbutil);
 
@@ -28,14 +27,24 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST) )){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Refresh" content="3; URL=<?php if(count($_POST['resource'])>0) echo $_POST['resource']; else echo "/admin/home.php"; ?>"></meta>
+<meta http-equiv="Refresh" content="3; URL=<?php if(count($_POST['resource'])>0) echo $_POST['resource']; else echo "./home.php"; ?>"></meta>
 
 <title>上次图片</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container">
-   <?php if($success) echo "添加活动成功!"; else echo "上传失败!";?>
+ <div class="hero-unit"> 
+    <p>网页会自动跳转</p>
+	  <p>
+	    <a class="btn btn-primary btn-large">
+	      <?php if($success) echo "添加活动成功!"; else echo "上传失败!";?>
+	    </a>
+	  </p>
+ </div>
+   
 </div>
 
 </body>

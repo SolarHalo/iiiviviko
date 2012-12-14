@@ -1,7 +1,5 @@
 <?php
-include '../load.php';
-include '../PageDB.php';
-
+include '../site_path.php';
 $pagedb = new Page($dbutil);
 
 $success = false;
@@ -33,7 +31,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 	if($success){
 		$time=date('Y-m-d H:i:s');
 		$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
-			 "imgbig"=>"/imageupload/".implode(".", $filename_b), "createtime" =>$time );
+			 "imgbig"=>"./imageupload/".implode(".", $filename_b), "createtime" =>$time );
 		$pagedb->insertPageContent($pagesmall);
 	}
 }
@@ -49,10 +47,20 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 
 <title>上次图片</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
+ <link href="../css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container">
-   <?php if($success) echo "上传成功!"; else echo "上传失败!";?>
+  
+  <div class="hero-unit"> 
+    <p>网页会自动跳转</p>
+	  <p>
+	    <a class="btn btn-primary btn-large">
+	      <?php if($success) echo "上传成功!"; else echo "上传失败!";?>
+	    </a>
+	  </p>
+ </div>
 </div>
 
 </body>

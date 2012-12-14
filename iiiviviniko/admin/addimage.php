@@ -11,21 +11,25 @@ if(!array_key_exists('pid', $_GET)){
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container">
     <div class="headlogo"><a href="#"><img src="../images/logo.jpg" /></a></div>  
      <div class="rightbox">
      	<div class="add_content">
-    		<p style="font-size: 24px;">添加图片</p><br/><br/>
-    		<form action="/admin/imageuploaded.php" method="post" enctype="multipart/form-data">
+    	<fieldset>
+    	  <legend>添加内容</legend>
+    		<form action="./imageuploaded.php" method="post" enctype="multipart/form-data">
     			名称: <input type="text" name="name" /><br/><br/>
-    			图片小: <input type="file" name="imagesmall" /><br/><br/>
-    			图片大: <input type="file" name="imagebig" /><br/><br/>
+    			图片小: <input    type="file" name="imagesmall" /><br/><br/>
+    			图片大: <input   type="file" name="imagebig" /><br/><br/>
     			<input type="hidden" name="pid" value="<?php echo $_GET['pid'];?>" />
     			<input type="hidden" name="resource" value="<?php if(array_key_exists('HTTP_REFERER', $_SERVER)) echo $_SERVER['HTTP_REFERER']?>" />
-    			<input type="submit" value="提交"/>
+    			<input type="submit" class="btn btn-info" value="提交"/>
     		</form>
+    	</fieldset>
     	</div>
      </div>
 </div>

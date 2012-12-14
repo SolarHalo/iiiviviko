@@ -1,6 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
+include '../site_path.php';
 
 $category = new Category($dbutil);
 $menus = $category->getAllMenu();
@@ -43,7 +42,7 @@ $(document).ready(function(){
 			var ele = $(this);
 			var id = $(this).attr("delid");
 			$.ajax({
-				'url': "/admin/ajaxoperation.php",
+				'url': "./ajaxoperation.php",
 				'data': {'method': 'delcate', 'id': id},
 				'success': function (data){
 					ele.parent("li").remove();
@@ -69,7 +68,7 @@ $(document).ready(function(){
     				foreach ($imgList as $img){
     			?>
     			<li>
-    				<a href="/admin<?php echo $img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>">
+    				<a href="./<?php echo $img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>">
     				<img src="<?php echo $img->img; ?>" /><?php echo $img->name; ?>
     				</a>
 	    				<img src="../images/deleteimage.png" alt="" delid="<?php echo $img->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/>
@@ -78,7 +77,7 @@ $(document).ready(function(){
     				}
     			?>
     			<li>
-    				<a href="/admin/addimagelist.php?pid=<?php echo $menuInfo['id']; ?>">
+    				<a href="./addimagelist.php?pid=<?php echo $menuInfo['id']; ?>">
     					<img src="../images/addimage.png" alt="添加图片" />
     					<font style="display: none;">添加列表</font>
     				</a>

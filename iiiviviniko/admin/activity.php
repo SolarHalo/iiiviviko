@@ -1,7 +1,5 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
-include '../PageDB.php';
+include '../site_path.php';
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -54,7 +52,7 @@ $activities = $category->getSubMenus($menuInfo['id']);
         		<?php foreach ($activities as $activity){?>
         		<li><a class="textlist" href="/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>"><?php echo $activity->desc;?></a></li>
         		<?php }?>
-        		<li><a href="/admin/addactivity.php?pid=<?php echo $menuInfo['id'];?>" ><img src="../images/addactivity.png" ></img>添加一个活动</a></li>
+        		<li><a href="./addactivity.php?pid=<?php echo $menuInfo['id'];?>" ><img src="../images/addactivity.png" ></img>添加一个活动</a></li>
             </ul>
         </div>
     </div>

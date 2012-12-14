@@ -1,7 +1,6 @@
 <?php
-include '../load.php';
-include '../CategoryDB.php';
-include '../PageDB.php';
+include '../site_path.php';
+ 
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -82,7 +81,7 @@ $(document).ready(function(){
             	<li><a class="imagezoom" href='<?php echo $page->imgbig; ?>' ><img src="<?php echo $page->imgsmall; ?>" /></a></li>
             	<?php }?>
             </ul>
-            	<a href="/admin/addimage.php?pid=<?php echo $menuInfo['id']; ?>">
+            	<a href="./addimage.php?pid=<?php echo $menuInfo['id']; ?>">
     					<img src="../images/addimage.png" alt="添加图片" />添加图片
     				</a>
             </div>
