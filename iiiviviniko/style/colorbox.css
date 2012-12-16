@@ -183,6 +183,7 @@ div.hoverscroll ul.list {
 div.hoverscroll ul.list li.item {
 	display: block;
 	padding: 0;
+	text-align: center;
 }
 
 div.hoverscroll.horizontal ul.list li.item {

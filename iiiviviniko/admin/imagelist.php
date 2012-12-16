@@ -1,5 +1,5 @@
 <?php
-include '../site_path.php';
+include '../load.php';
 
 $category = new Category($dbutil);
 $menus = $category->getAllMenu();
@@ -68,8 +68,8 @@ $(document).ready(function(){
     				foreach ($imgList as $img){
     			?>
     			<li>
-    				<a href="./<?php echo $img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>">
-    				<img src="<?php echo $img->img; ?>" /><?php echo $img->name; ?>
+    				<a href="<?php echo $root_path."/admin".$img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>">
+    				<img src="<?php echo $root_path.$img->img; ?>" /><?php echo $img->name; ?>
     				</a>
 	    				<img src="../images/deleteimage.png" alt="" delid="<?php echo $img->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/>
     			</li>

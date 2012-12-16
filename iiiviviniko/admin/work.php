@@ -1,5 +1,5 @@
 <?php
-include './load.php';
+include '../load.php';
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -41,10 +41,10 @@ if(array_key_exists('ol', $_GET)){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>iiiviviniko</title> 
-<link href="style/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
+<link href="../style/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
 
-<script type="text/javascript" src="js/listmenu.js"></script>
+<script type="text/javascript" src="../js/listmenu.js"></script>
 
 </head>
 

@@ -1,5 +1,5 @@
 <?php
-include '../site_path.php';
+include '../load.php';
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);

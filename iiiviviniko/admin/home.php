@@ -1,5 +1,5 @@
 <?php 
-include '../site_path.php';
+include '../load.php';
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -17,21 +17,22 @@ $menus = $category->getAllMenu();
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="../images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="#"><img src="../images/logo.jpg" /></a></div>  
     <div class="left-menu">
+    <a href="menuoperation.php" style="background-color: #EEEEEE;border: medium none #CCCCCC;font-size: 16px;padding: 4px;">管理菜单</a> 
     	<?php 
     		foreach ($menus as $menu){
     	?>
     	<div class="current" >
             <h2><?php if(count($menu['link']) > 0){
-            	echo "<a href='/admin".$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
+            	echo "<a href='".$root_path."/admin".$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
             } else echo $menu['name'];?></h2>
             <?php if(array_key_exists('submenu', $menu)){
             ?>
             <ul>
             <?php foreach ($menu['submenu'] as $submenu){
             ?>
-                <li><a href="/admin<?php echo $submenu['link'].'?menu='.$menu['name'].'&list='.$submenu['name'];?>" ><?php echo $submenu['name'];?></a></li>
+                <li><a href="<?php echo $root_path; ?>/admin<?php echo $submenu['link'].'?menu='.$menu['name'].'&list='.$submenu['name'];?>" ><?php echo $submenu['name'];?></a></li>
              <?php }?>
             </ul>
             <?php }?>

@@ -1,8 +1,5 @@
 <?php
 include '../load.php';
-include '../PageDB.php';
-include '../CategoryDB.php';
-include '../StoresDB.php';
 $method = $_GET['method'];
 
 if($method == "delpage"){

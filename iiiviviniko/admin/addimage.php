@@ -1,6 +1,8 @@
 <?php
+include '../load.php';
+
 if(!array_key_exists('pid', $_GET)){
-	header("Location: /404.php");
+	header("Location: ".$root_path."/404.php");
 }
 ?>
 
@@ -11,7 +13,7 @@ if(!array_key_exists('pid', $_GET)){
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet"></link>
 
 </head>
 <body>

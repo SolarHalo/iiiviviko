@@ -1,5 +1,5 @@
 <?php 
-include './site_path.php'; 
+include './load.php'; 
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -56,11 +56,11 @@ $pageInfo = $pagedb->getPageContent($menuInfo['id'], $nowpage);
 <script type="text/javascript">
 
 $(document).ready(function(){
-	$(".lookzoom").colorbox({width:"600", height:"100%", inline:true, href:".photo_zoom",scrolling:false,opacity:1});
+	$(".lookzoom").colorbox({inline:true, href:".photo_zoom",scrolling:false,opacity:1});
 
 	$.fn.hoverscroll.params = $.extend($.fn.hoverscroll.params, {
 		vertical : true,
-		width: 600,
+		width: $(window).width(),
 		height: $(window).height(),
 		arrows: false
 	});
@@ -79,14 +79,14 @@ $(document).ready(function(){
 		<div style="display: none; overflow: hidden;">
 			<a href="#" class='photo_zoom' onClick="$.colorbox.close();">
 				<ul id="my-list">
-					<li><img src="<?php echo $pageInfo->imgbig;?>"></img></li>
+					<li><img src="<?php echo $root_path.$pageInfo->imgbig;?>"></img></li>
 				</ul>
 			</a>
 			
 		</div>
     	<div class="cl_content">
     		<a class="lookzoom" href="#" >
-    			<img  src="<?php echo $pageInfo->imgbig;?>" style="max-width: 400px; max-height: 600px;"/>
+    			<img  src="<?php echo $root_path.$pageInfo->imgbig;?>" style="max-width: 400px; max-height: 600px;"/>
     		</a>
         </div>
         <div class="cr_content">

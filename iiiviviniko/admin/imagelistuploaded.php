@@ -1,5 +1,5 @@
 <?php
-include '../site_path.php';
+include '../load.php';
 $categorydb = new Category($dbutil);
 
 $success = false;
@@ -40,10 +40,20 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 
 <title>上次图片</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
+ <link href="../css/bootstrap.min.css" rel="stylesheet"></link>
 </head>
 <body>
 <div class="container">
-   <?php if($success) echo "上传成功!"; else echo "上传失败!";?>
+  
+  <div class="hero-unit"> 
+    <p>网页会在3秒内自动跳转</p>
+    <a href="<?php if(count($_POST['resource'])>0) echo $_POST['resource']; else echo "/admin/home.php"; ?>">点击这里直接跳转</a>
+	  
+	    <div class="alert <?php if ($success) echo "alert-success"; else echo "alert-error";?>">
+	      <?php if($success) echo "上传成功!"; else echo "上传失败!";?>
+	    </div>
+	 
+ </div>
 </div>
 
 </body>

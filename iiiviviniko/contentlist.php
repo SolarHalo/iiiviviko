@@ -1,5 +1,5 @@
 <?php
-include './site_path.php'; 
+include './load.php'; 
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
@@ -66,7 +66,7 @@ $pages = $pagedb->getPagesAllByPid($menuInfo['id']);
     			?>
     				<li><a href="content.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];
     								 if(array_key_exists('ol', $_GET)) echo "&ol=".$_GET['ol']; ?>&page=<?php echo ($key+1);?>">
-    					<img src="<?php echo $page->imgsmall; ?>" />
+    					<img src="<?php echo $root_path.$page->imgsmall; ?>" />
     					</a>
     				</li>
     			<?php

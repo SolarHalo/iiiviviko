@@ -1,11 +1,10 @@
 <?php 
-define('ROOT_PATH', dirname(__FILE__));  
-
-include ROOT_PATH.'/site_path.php'; 
+include 'load.php'; 
 
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
 $menus = $category->getAllMenu();
+
 
 ?>
 
@@ -26,14 +25,14 @@ $menus = $category->getAllMenu();
     	?>
     	<div class="current" >
             <h2><?php if(count($menu['link']) > 0){
-            	echo "<a href='".$urlroot.$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
+            	echo "<a href='".$root_path.$menu['link']."?menu=".$menu['name']."' >".$menu['name']."</a>";
             } else echo $menu['name'];?></h2>
             <?php if(array_key_exists('submenu', $menu)){
             ?>
             <ul>
             <?php foreach ($menu['submenu'] as $submenu){
             ?>
-                <li><a href="<?php echo $submenu['link'].'?menu='.$menu['name'].'&list='.$submenu['name'];?>" ><?php echo $submenu['name'];?></a></li>
+                <li><a href="<?php echo $root_path.$submenu['link'].'?menu='.$menu['name'].'&list='.$submenu['name'];?>" ><?php echo $submenu['name'];?></a></li>
              <?php }?>
             </ul>
             <?php }?>

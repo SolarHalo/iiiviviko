@@ -1,7 +1,12 @@
 <?php
- 
-include ROOT_PATH.'/config.php';
-include  ROOT_PATH.'/DBUtil.php';
+
+include 'config.php';
+include 'DBUtil.php';
+include 'CategoryDB.php';
+include 'PageDB.php';
+include 'StoresDB.php';
+
+
 
 //session_start();
 
@@ -12,6 +17,7 @@ define("ARRAY_N", "array_n");
 
 $dbutil = new DbUtil(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-$root_path = "/";
+/// 程序URL的根目录,后面不要跟"/"
+$root_path = "/iiiviviniko";
 
 ?>

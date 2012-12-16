@@ -1,6 +1,6 @@
 <?php
 if(!array_key_exists('pid', $_GET)){
-	header("Location: /404.php");
+	header("Location: ".$root_path."/404.php");
 }
 ?>
 
@@ -10,7 +10,7 @@ if(!array_key_exists('pid', $_GET)){
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
-   <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <link href="../css/bootstrap.min.css" rel="stylesheet"></link>
 
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
 </head>
@@ -21,7 +21,7 @@ if(!array_key_exists('pid', $_GET)){
      	<div class="add_content">
     		 <fieldset>
     	  <legend>添加活动</legend>
-    		<form action="/admin/addactivityaction.php" method="post" enctype="application/x-www-form-urlencoded">
+    		<form action="./addactivityaction.php" method="post" enctype="application/x-www-form-urlencoded">
     			名称: <input type="text" name="name" size="50"/><br/><br/>
     			描述: <textarea name="desc" rows="4" cols="50"></textarea><br/><br/>
     			<input type="hidden" name="pid" value="<?php echo $_GET['pid'];?>" />

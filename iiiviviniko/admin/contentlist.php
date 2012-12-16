@@ -1,5 +1,5 @@
 <?php
-include '../site_path.php';
+include '../load.php';
 $category = new Category($dbutil);
 $pagedb = new Page($dbutil);
 $menus = $category->getAllMenu();
@@ -77,7 +77,7 @@ $(document).ready(function(){
     			?>
     				<li>
     					<a href="#">
-    						<img src="<?php echo $page->imgsmall; ?>" />
+    						<img src="<?php echo $root_path.$page->imgsmall; ?>" />
     					</a>
     						<img src="../images/deleteimage.png" alt="" delid="<?php echo $page->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/>
     				</li>
@@ -100,7 +100,7 @@ $(document).ready(function(){
             </p>
             
             <?php if(array_key_exists('ol', $_GET)){?>
-            	<a href="./<?php echo $pmenu['link']?>?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];?>" class="back">&lt;&nbsp;BACK</a>
+            	<a href="<?php echo $root_path."/admin".$pmenu['link']?>?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];?>" class="back">&lt;&nbsp;BACK</a>
             <?php }?>
             
         </div>
