@@ -17,7 +17,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 	$filename_b[0] = $name."-".$time."-big";
 	$image_s = IMAGEPATH.implode(".", $filename_s);
 	$image_b = IMAGEPATH.implode(".", $filename_b);
-	
+	echo $_FILES['imagesmall']['tmp_name']."文件名称为".$image_s;
 	if(!move_uploaded_file($_FILES['imagesmall']['tmp_name'], $image_s)){
 		$success = false;
 	}else{
