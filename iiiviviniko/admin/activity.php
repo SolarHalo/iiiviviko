@@ -37,7 +37,21 @@ $activities = $category->getSubMenus($menuInfo['id']);
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
-
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".deleteimage").click(function(){
+			var ele = $(this);
+			var id = $(this).attr("delid");
+			$.ajax({
+				'url': "./ajaxoperation.php",
+				'data': {'method': 'delcate', 'id': id},
+				'success': function (data){
+					ele.parent("li").remove();
+				}
+				});
+		});
+});
+</script>
 </head>
 
 <body>
@@ -50,7 +64,7 @@ $activities = $category->getSubMenus($menuInfo['id']);
         <div class="cr_content">
         	<ul class="text-list">
         		<?php foreach ($activities as $activity){?>
-        		<li><a class="textlist" href="/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>"><?php echo $activity->desc;?></a></li>
+        		<li><a class="textlist" href="/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>"><?php echo $activity->desc;?></a><img src="../images/deleteimage.png" alt="" delid="<?php echo $activity->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/></li>
         		<?php }?>
         		<li><a href="./addactivity.php?pid=<?php echo $menuInfo['id'];?>" ><img src="../images/addactivity.png" ></img>添加一个活动</a></li>
             </ul>

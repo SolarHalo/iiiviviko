@@ -22,7 +22,7 @@ if(!array_key_exists('pid', $_GET)){
     		 <fieldset>
     	  <legend>添加活动</legend>
     		<form action="./addactivityaction.php" method="post" enctype="application/x-www-form-urlencoded">
-    			名称: <input type="text" name="name" size="50"/><br/><br/>
+    		 
     			描述: <textarea name="desc" rows="4" cols="50"></textarea><br/><br/>
     			<input type="hidden" name="pid" value="<?php echo $_GET['pid'];?>" />
     			<input type="hidden" name="resource" value="<?php if(array_key_exists('HTTP_REFERER', $_SERVER)) echo $_SERVER['HTTP_REFERER']?>" />

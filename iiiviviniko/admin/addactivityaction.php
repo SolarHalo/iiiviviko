@@ -5,16 +5,16 @@ $categorydb = new Category($dbutil);
 
 $success = false;
 
-if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST) )){
+if(!(array_key_exists('desc', $_POST) && array_key_exists('pid', $_POST) )){
 	$success = false;
 }else{
-	$name = $_POST['name'];
+ 
 	$pid = $_POST['pid'];
 	$desc = $_POST['desc'];
 	$success = true;
 	if($success){
 		$time=time();
-		$categ = array("pid"=> $pid, "name"=>$name,
+		$categ = array("pid"=> $pid,  
 			 'desc'=> $desc, "rank" =>$time, "link"=>"/contentlist.php");
 		$categorydb->insertMenu($categ);
 	}

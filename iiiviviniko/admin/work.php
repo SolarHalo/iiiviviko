@@ -50,7 +50,7 @@ if(array_key_exists('ol', $_GET)){
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="#"><img src="../images/logo.jpg" /></a></div>   
     <div class="left-menu">
     	<?php 
     		include 'menulist.php';
@@ -59,20 +59,39 @@ if(array_key_exists('ol', $_GET)){
 	<div class="rightbox">
     	<div class="cl_content mt20">
 			<div class="work">
-                <h5>商品助理</h5>
+                <h5>商品助理:</h5>
                 <p>
                     招聘要求：<br />
-                    1、服装设计或者服装工程专业；<br />
-                    2、服装设计或者服装工程专业；<br />
-                    3、服装设计或者服装工程专业；<br />
-                    4、服装设计或者服装工程专业；
+             1、服装设计或服装工程专业; <br/>
+						 2、对时尚嗅觉灵敏，喜欢流行事物; <br/>
+						 3、书面文字表达能力强。
+
+
                 </p>
                 <p>
                     工作职责：<br />
-                    1、服装设计或者服装工程专业；<br />
-                    2、服装设计或者服装工程专业；<br />
-                    3、服装设计或者服装工程专业；<br />
-                    4、服装设计或者服装工程专业；
+                1、与各部门的信息传递工作;<br />
+								2、商品文字类的描述;<br />
+								3、商品培训会，订货会的相关工作。 
+                </p>
+ <br/>
+ 
+ 
+   <h5>陈列助理:</h5>
+                <p>
+                    招聘要求：<br />
+                    1、服装设计或视觉传达专业; <br/>
+					2、能熟练操作平面软件PS, AI;<br/>
+					3、有时尚感及一走的美术基础和敏锐的色彩平衡感;<br/>
+					4、对品牌卖场、产品布置、摆设有较系统的认识。 
+
+                </p>
+                <p>
+                    工作职责：<br />
+                   1、陈列方案的制作及陈列道具的开发; <br/>
+				   2、店铺陈列的管理; <br/>
+				   3、拍摄工作的配台。
+
                 </p>
 			</div>
             
