@@ -87,5 +87,9 @@ class Category{
 	function deleteMenu($id){
 		$this->dbutil->query("delete from category where id=".$id);
 	}
+	
+	function updateMenu($date, $id){
+		$this->dbutil->update('category', $date, array('id'=> $id));
+	}
 }
 ?>

@@ -33,6 +33,20 @@ if($method == "delpage"){
 	$storedb = new Store($dbutil);
 	$storedb->deleteStore($id);
 	echo "success";
+}else if($method == "updatecate"){
+	$id = $_GET['id'];
+	$name = $_GET['name'];
+	$desc = $_GET['desc'];
+	$catedb = new Category($dbutil);
+	$catedb->updateMenu(array('name'=>$name, 'desc'=>$desc ),$id);
+	echo "success";
+}else if($method == "updatecatesort"){
+	$id = $_GET['id'];
+	$catedb = new Category($dbutil);
+	foreach ($id as $key => $value) {
+		$catedb->updateMenu(array('rank'=>$key ), (int)($value));
+	}
+	echo "success";
 }
 
 ?>

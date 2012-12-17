@@ -18,6 +18,6 @@ define("ARRAY_N", "array_n");
 $dbutil = new DbUtil(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 /// 程序URL的根目录,后面不要跟"/"
-$root_path = "";
+$root_path = "/iiiviviniko";
 
 ?>
