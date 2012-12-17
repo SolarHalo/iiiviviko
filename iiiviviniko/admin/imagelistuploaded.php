@@ -13,7 +13,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 	$desc = $_POST['desc'];
 	$filename_s = explode(".", $_FILES['img']['name']);
 	$time = date('Y-m-d-H-i-s');
-	$filename_s[0] = $name."-".$time."-category";
+	$filename_s[0] = rand()."-".$time."-category";
 	$image_s = IMAGEPATH.implode(".", $filename_s);
 	
 	if(!move_uploaded_file($_FILES['img']['tmp_name'], $image_s)){

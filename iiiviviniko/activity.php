@@ -27,7 +27,7 @@ if(array_key_exists('list', $_GET)){
 	}
 }
 
-$activities = $category->getSubMenus($menuInfo['id']);
+$activities = $category->getActivits($menuInfo['id']);
 
 
 ?>

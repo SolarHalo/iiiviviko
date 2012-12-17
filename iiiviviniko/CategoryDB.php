@@ -56,6 +56,13 @@ class Category{
 		return $result;
 	}
 	
+	function getActivits($pid){
+		$result = $this->dbutil->get_results("select * from category where pid=".$pid." order by rank desc");
+		return $result;
+	}
+	
+	
+	
 	/**
 	 * 根据父菜单ID和本菜单名称获取菜单信息
 	 * Enter description here ...

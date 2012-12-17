@@ -27,7 +27,7 @@ if(array_key_exists('list', $_GET)){
 	}
 }
 
-$activities = $category->getSubMenus($menuInfo['id']);
+$activities = $category->getActivits($menuInfo['id']);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -64,7 +64,11 @@ $(document).ready(function(){
         <div class="cr_content">
         	<ul class="text-list">
         		<?php foreach ($activities as $activity){?>
-        		<li><a class="textlist" href="/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>"><?php echo $activity->desc;?></a><img src="../images/deleteimage.png" alt="" delid="<?php echo $activity->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/></li>
+        		<li>
+        			<a class="textlist" href="/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>" style="display: inline-block; width: 555px; "><?php echo $activity->desc;?>
+        			</a>
+        			<img src="../images/deleteimage.png" alt="" delid="<?php echo $activity->id; ?>" class="deleteimage" style="width: 16px; height: 16px; float: none;margin: 0;"/>
+        		</li>
         		<?php }?>
         		<li><a href="./addactivity.php?pid=<?php echo $menuInfo['id'];?>" ><img src="../images/addactivity.png" ></img>添加一个活动</a></li>
             </ul>
