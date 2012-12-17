@@ -17,9 +17,9 @@ $menus = $category->getAllMenu();
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
 <script type="text/javascript" src="../js/jquery.dragsort-0.4.min.js" ></script>
 <script type="text/javascript" src="../js/bootstrap-modal.js" ></script>
-<script type="text/javascript">
+<script type="text/javascript"><!--
 $(document).ready(function(){
-	$("ul").dragsort({ dragSelector: "li", dragEnd: function() { }, dragBetween: false, placeHolderTemplate: "<li></li>" });
+	
 
 	$("li").mouseover(function(){
 		$(this).children("img").css("display","inline-block");
@@ -99,22 +99,38 @@ $(document).ready(function(){
 				});
 		});
 
+	$(".startsort").click(function(){
+		if($(this).html() == '开始排序'){
+			$("ul").dragsort({ dragSelector: "li", dragEnd: function() { }, dragBetween: false, placeHolderTemplate: "<li></li>" });
+			$(this).html("取消排序");
+			$(".savesort").show();
+		}else if($(this).html() == "取消排序"){
+			$(this).html("开始排序");
+			$.dragsort.stop("ul");
+			$(".savesort").hide();
+		}
+		
+		});
+
 	$(".savesort").click(function(){
-			var ele = $(this);
-			ele.html("保存中...");
-			ele.addClass("disabled");
-			var ids = [];
-			$("ul").children("li").each(function(){
-				ids.push($(this).attr("mid"));
-				});
-			$.ajax({
-				'url': "./ajaxoperation.php",
-				'data': {'method': 'updatecatesort', 'id': ids},
-				'success': function (data){
-					ele.html("保存排序");
-					ele.removeClass("disabled");
-				}
-				});
+		var ele = $(this);
+		ele.html("保存中...");
+		ele.addClass("disabled");
+		var ids = [];
+		$("ul").children("li").each(function(){
+			ids.push($(this).attr("mid"));
+			});
+		$.ajax({
+			'url': "./ajaxoperation.php",
+			'data': {'method': 'updatecatesort', 'id': ids},
+			'success': function (data){
+				ele.html("保存排序");
+				ele.removeClass("disabled");
+				ele.hide();
+				$(".startsort").html("开始排序");
+				$.dragsort.stop("ul");
+			}
+			});
 		});
 
 });
@@ -127,7 +143,8 @@ $(document).ready(function(){
      <div class="rightbox">
      <h2>管理菜单</h2>
      <br />
-     <a href="#" class="btn savesort">保存排序</a>
+     <a href="#" class="btn startsort">开始排序</a>
+     <a href="#" class="btn btn-primary savesort hide">保存排序</a>
      <a href="./addmenu.php" class="btn">添加菜单</a>
      <br /><br />
      	<ul class="dragsort_main">
