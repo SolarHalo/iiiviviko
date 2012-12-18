@@ -271,9 +271,7 @@ a {
 	cursor: pointer;
 }
 
-.listhidden ul li{
-	margin-top:10px;
-	}
+
 .current ul li{
 	margin-top:10px;
 	}
