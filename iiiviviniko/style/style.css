@@ -272,11 +272,23 @@ a {
 }
 
 
+.current ul li{
+	margin-top:10px;
+	}
 
+.wblogo .wblogo2{
+	display:none;
+	}
+.wblogo .wblogo1{
+	display:block;
+	}
 
-
-
-
+.wblogo:hover .wblogo2{
+	display:block;
+	}
+.wblogo:hover .wblogo1{
+	display:none;
+	}
 
 
 

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="63" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="25" y="25">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="155" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.vmware.remotedebug.ccpp.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.zend.php.datatools.ui.CreateNewConnectionActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.zend.php.phpdocumentor.PHPDocumentorActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="229" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.zend.php.zendserver.ui.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="309" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1355459479489" focus="true" label="Workspace - PHP">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.php.editor" name="activity.php" partName="activity.php" path="G:/iiivivi/iiiviviniko/activity.php" title="activity.php" tooltip="iiiviviniko/activity.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/activity.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="507" selectionTopPixel="205"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="addactivity.php" partName="addactivity.php" path="G:/iiivivi/iiiviviniko/admin/addactivity.php" title="addactivity.php" tooltip="iiiviviniko/admin/addactivity.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/addactivity.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="938" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="activity.php" partName="activity.php" path="G:/iiivivi/iiiviviniko/admin/activity.php" title="activity.php" tooltip="iiiviviniko/admin/activity.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/activity.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1279" selectionTopPixel="567"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="imagelist.php" partName="imagelist.php" path="G:/iiivivi/iiiviviniko/admin/imagelist.php" title="imagelist.php" tooltip="iiiviviniko/admin/imagelist.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/imagelist.php"/>
+<editorState selectionHorizontalPixel="172" selectionLength="132" selectionOffset="2031" selectionTopPixel="918"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="contentlist.php" partName="contentlist.php" path="G:/iiivivi/iiiviviniko/admin/contentlist.php" title="contentlist.php" tooltip="iiiviviniko/admin/contentlist.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/contentlist.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="566" selectionTopPixel="204"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="ajaxoperation.php" partName="ajaxoperation.php" path="G:/iiivivi/iiiviviniko/admin/ajaxoperation.php" title="ajaxoperation.php" tooltip="iiiviviniko/admin/ajaxoperation.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/ajaxoperation.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="129" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="storeslocation.php" partName="storeslocation.php" path="G:/iiivivi/iiiviviniko/admin/storeslocation.php" title="storeslocation.php" tooltip="iiiviviniko/admin/storeslocation.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/storeslocation.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1122"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="menuoperation.php" partName="menuoperation.php" path="G:/iiivivi/iiiviviniko/admin/menuoperation.php" title="menuoperation.php" tooltip="iiiviviniko/admin/menuoperation.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/admin/menuoperation.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3537" selectionTopPixel="1972"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.php.ui.explorer" partName="PHP Explorer">
+<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.php.ui.explorer.EmptyInnerPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.PHPHTMLFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.NonScriptElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.NonFrameworkProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.NonScriptProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.RSEProjectFilter" isEnabled="true"/>
+<child filterId="org.eclipse.php.ui.explorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.UseStatementFilter" isEnabled="true"/>
+<child filterId="org.eclipse.php.ui.explorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.ContainMembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.SMFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.DotFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.php.ui.explorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.php.ui.explorer.ContainedLibraryFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.php.editor" activePerspective="org.eclipse.php.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.php.internal.ui.PHPPerspectiveFactory" id="org.eclipse.php.perspective" label="PHP"/>
+<alwaysOnActionSet id="com.vmware.remotedebug.ccpp.actionSet"/>
+<alwaysOnActionSet id="com.zend.php.ui.helpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.atf.mozilla.ide.debug.ui.JSDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.zend.php.datatools.ui.CreateNewConnectionActionSet"/>
+<alwaysOnActionSet id="com.zend.php.debug.ui.tunnelingActionSet"/>
+<alwaysOnActionSet id="com.zend.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.zend.php.framework.ZendToolActionSet"/>
+<alwaysOnActionSet id="com.zend.php.phpdocumentor.PHPDocumentorActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.zend.php.profile.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.zend.php.ui.actions.UntitledPHPDocumentActionSet"/>
+<alwaysOnActionSet id="com.zend.php.ui.EncodeActionSet"/>
+<alwaysOnActionSet id="com.zend.php.zendserver.ui.serveractionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.php.ui.PHPActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.php.ui.text.php.actionSet.presentation"/>
+<show_view_action id="org.eclipse.php.ui.explorer"/>
+<show_view_action id="org.eclipse.dltk.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.php.ui.functions"/>
+<show_view_action id="org.eclipse.php.ui.projectOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="com.zend.php.rss.ui.RSSView"/>
+<show_view_action id="com.zend.php.framework.ui.views.mvc"/>
+<show_view_action id="com.zend.php.codegallery"/>
+<show_view_action id="com.zend.php.debug.ui.views.CodeCoverageView"/>
+<show_view_action id="com.zend.php.phpunit.PHPUnitView"/>
+<show_view_action id="com.zend.php.platform.ui.PlatformEventsView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<new_wizard_action id="com.zend.php.phpunit.wizards.TestCaseWizard"/>
+<new_wizard_action id="com.zend.php.phpunit.wizards.TestSuiteWizard"/>
+<new_wizard_action id="org.eclipse.php.ui.wizards.PHPRemoteProjectCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.php.ui.wizards.PHPProjectCreationWizard"/>
+<new_wizard_action id="org.eclipse.php.ui.wizards.PHPFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.php.ui.wizards.UntitledPHPDocumentWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.wst.css.ui.internal.wizard.NewCSSWizard"/>
+<new_wizard_action id="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
+<new_wizard_action id="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.zend.php.framework.ui.wizards.ZendFrameworkProjectCreationWizard"/>
+<new_wizard_action id="org.zend.php.framework.ui.wizards.NewZendItemWizard"/>
+<new_wizard_action id="org.zend.php.ui.wizards.phpElementsWizard.NewPHPClassWizard"/>
+<new_wizard_action id="org.zend.php.ui.wizards.phpElementsWizard.NewPHPInterfaceWizard"/>
+<new_wizard_action id="org.zend.php.ui.wizards.wizards.RemoteFolderWizard"/>
+<new_wizard_action id="org.eclipse.php.wst.jsdt.ui.NewJSWizard"/>
+<perspective_action id="org.eclipse.php.perspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.zend.php.profile.ui.perspective"/>
+<perspective_action id="com.zend.php.wysiwyg.ui.webPerspective"/>
+<perspective_action id="org.eclipse.atf.mozilla.ide.ui.perspective"/>
+<perspective_action id="org.zend.php.framework.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.php.ui.explorer"/>
+<view id="org.eclipse.dltk.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.php.ui.explorer" appearance="2" expanded="2">
+<page content="org.eclipse.php.ui.explorer" label="PHP Explorer"/>
+<page content="org.eclipse.dltk.ui.TypeHierarchy" label="Type Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@193b022" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21063681" ratioLeft="301" ratioRight="1128" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="com.zend.php.phpunit.PHPUnitView" label="LabelNotFound"/>
+<page content="com.zend.php.debug.ui.views.CodeCoverageView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.75" ratioLeft="585" ratioRight="195" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<page content="org.eclipse.php.ui.projectOutline" label="LabelNotFound"/>
+<page content="org.eclipse.php.ui.functions" label="LabelNotFound"/>
+<page content="org.zend.php.framework.ui.views.mvc" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/addimage.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/imageuploaded.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/work.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/work.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/menulist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/activity.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/addactivity.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/addactivityaction.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/activity.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/imagelist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/contentlist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/ajaxoperation.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/storeslocation.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/admin/menuoperation.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/iiiviviniko/js/jquery.dragsort-0.4.min.js"/>
+</editors>
+<item historyLabel="addactivityaction.php" index="8">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="activity.php" index="6">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="addactivityaction.php" index="8">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="activity.php" index="9">
+<position/>
+</item>
+<item historyLabel="imagelist.php" index="10">
+<position info="not_deleted" x="2031" y="132"/>
+</item>
+<item historyLabel="activity.php" index="9">
+<position info="not_deleted" x="1691" y="0"/>
+</item>
+<item historyLabel="addactivityaction.php" index="8">
+<position info="not_deleted" x="405" y="36"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="activity.php" index="6">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="menulist.php" index="5">
+<position info="not_deleted" x="964" y="0"/>
+</item>
+<item historyLabel="work.php" index="4">
+<position info="not_deleted" x="1341" y="0"/>
+</item>
+<item historyLabel="work.php" index="3">
+<position info="not_deleted" x="1256" y="1135"/>
+</item>
+<item historyLabel="work.php" index="4">
+<position info="not_deleted" x="1341" y="0"/>
+</item>
+<item historyLabel="config.php" index="2">
+<position info="not_deleted" x="183" y="7"/>
+</item>
+<item historyLabel="imageuploaded.php" index="1">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="config.php" index="2">
+<position info="not_deleted" x="183" y="7"/>
+</item>
+<item historyLabel="addactivityaction.php" index="8">
+<position info="not_deleted" x="405" y="36"/>
+</item>
+<item historyLabel="config.php" index="2">
+<position info="not_deleted" x="183" y="7"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="menulist.php" index="5">
+<position info="not_deleted" x="964" y="0"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="addimage.php" index="0">
+<position info="not_deleted" x="871" y="19"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="config.php" index="2">
+<position info="not_deleted" x="183" y="7"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="11">
+<position info="not_deleted" x="1231" y="358"/>
+</item>
+<item historyLabel="addactivity.php" index="7">
+<position info="not_deleted" x="938" y="0"/>
+</item>
+<item historyLabel="activity.php" index="9">
+<position info="not_deleted" x="1227" y="17"/>
+</item>
+<item historyLabel="ajaxoperation.php" index="12">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="11">
+<position info="not_deleted" x="2183" y="11"/>
+</item>
+<item historyLabel="imagelist.php" index="10">
+<position info="not_deleted" x="2031" y="132"/>
+</item>
+<item historyLabel="activity.php" index="9">
+<position info="not_deleted" x="1272" y="7"/>
+</item>
+<item historyLabel="ajaxoperation.php" index="12">
+<position info="not_deleted" x="454" y="7"/>
+</item>
+<item historyLabel="activity.php" index="9">
+<position info="not_deleted" x="1279" y="0"/>
+</item>
+<item historyLabel="ajaxoperation.php" index="12">
+<position info="not_deleted" x="129" y="7"/>
+</item>
+<item historyLabel="storeslocation.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="11">
+<position info="not_deleted" x="2183" y="11"/>
+</item>
+<item historyLabel="menuoperation.php" index="14">
+<position info="not_deleted" x="676" y="0"/>
+</item>
+<item historyLabel="jquery.dragsort-0.4.min.js" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menuoperation.php" index="14">
+<position/>
+</item>
+<item historyLabel="jquery.dragsort-0.4.min.js" index="15">
+<position/>
+</item>
+<item historyLabel="menuoperation.php" index="14">
+<position/>
+</item>
+<item historyLabel="jquery.dragsort-0.4.min.js" index="15">
+<position/>
+</item>
+<item historyLabel="menuoperation.php" index="14">
+<position info="not_deleted" x="2056" y="0"/>
+</item>
+<item historyLabel="jquery.dragsort-0.4.min.js" index="15">
+<position info="not_deleted" x="7404" y="0"/>
+</item>
+<item historyLabel="menuoperation.php" index="14">
+<position info="not_deleted" x="783" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="11">
+<position info="not_deleted" x="566" y="0"/>
+</item>
+<item active="true" historyLabel="menuoperation.php" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.zend.php.callout.toolbar"/>
+<trimItem IMemento.internal.id="org.zend.php.framework.toolbar"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="menuoperation.php" tooltip="iiiviviniko/admin/menuoperation.php">
+<persistable path="/iiiviviniko/admin/menuoperation.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery.dragsort-0.4.min.js" tooltip="iiiviviniko/js/jquery.dragsort-0.4.min.js">
+<persistable path="/iiiviviniko/js/jquery.dragsort-0.4.min.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="storeslocation.php" tooltip="iiiviviniko/admin/storeslocation.php">
+<persistable path="/iiiviviniko/admin/storeslocation.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ajaxoperation.php" tooltip="iiiviviniko/admin/ajaxoperation.php">
+<persistable path="/iiiviviniko/admin/ajaxoperation.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="contentlist.php" tooltip="iiiviviniko/admin/contentlist.php">
+<persistable path="/iiiviviniko/admin/contentlist.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="imagelist.php" tooltip="iiiviviniko/admin/imagelist.php">
+<persistable path="/iiiviviniko/admin/imagelist.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="activity.php" tooltip="iiiviviniko/admin/activity.php">
+<persistable path="/iiiviviniko/admin/activity.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addactivityaction.php" tooltip="iiiviviniko/admin/addactivityaction.php">
+<persistable path="/iiiviviniko/admin/addactivityaction.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addactivity.php" tooltip="iiiviviniko/admin/addactivity.php">
+<persistable path="/iiiviviniko/admin/addactivity.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="activity.php" tooltip="iiiviviniko/activity.php">
+<persistable path="/iiiviviniko/activity.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="menulist.php" tooltip="iiiviviniko/menulist.php">
+<persistable path="/iiiviviniko/menulist.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="work.php" tooltip="iiiviviniko/admin/work.php">
+<persistable path="/iiiviviniko/admin/work.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="work.php" tooltip="iiiviviniko/work.php">
+<persistable path="/iiiviviniko/work.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="config.php" tooltip="iiiviviniko/config.php">
+<persistable path="/iiiviviniko/config.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="imageuploaded.php" tooltip="iiiviviniko/admin/imageuploaded.php">
+<persistable path="/iiiviviniko/admin/imageuploaded.php"/>
+</file>
+</mruList>
+</workbench>

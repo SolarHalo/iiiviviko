@@ -18,7 +18,7 @@ $menus = $category->getAllMenu();
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="index.html"><img src="images/logo.jpg" /></a></div>   
     <div class="left-menu">
     	<?php 
     		foreach ($menus as $menu){
@@ -37,9 +37,13 @@ $menus = $category->getAllMenu();
             </ul>
             <?php }?>
         </div>
+       
     	<?php 		
     		}
     	?>
+    	 <div class="current">
+        	<a href="http://e.weibo.com/iiiviviniko" class="wblogo" target="_blank"><img src="./images/WB_logo.png" class="wblogo1" /><img src="images/WB_logo2.png" class="wblogo2" /></a>
+        </div>
     </div>
 	<div class="rightbox">
     	<div class="cl_content">
