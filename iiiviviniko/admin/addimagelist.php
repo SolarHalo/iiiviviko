@@ -7,6 +7,7 @@ if(!array_key_exists('pid', $_GET)){
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" /> 
 <title>iiiviviniko</title> 
 <link href="../style/style.css" type="text/css" rel="stylesheet" />
  <link href="../css/bootstrap.min.css" rel="stylesheet"></link>

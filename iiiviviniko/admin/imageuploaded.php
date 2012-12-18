@@ -43,6 +43,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" /> 
 <meta http-equiv="Refresh" content="3; URL=<?php if(count($_POST['resource'])>0) echo $_POST['resource']; else echo $root_path."/admin/home.php"; ?>"></meta>
 
 <title>上次图片</title> 
