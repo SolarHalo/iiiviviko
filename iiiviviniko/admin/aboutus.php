@@ -47,7 +47,7 @@ $pageinfos = $pagedb->getPagesAllByPid($menuInfo['id']);
 <script type="text/javascript" src="../js/jquery.hoverscroll.js"></script>
 <script type="text/javascript" src="../js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
+$(window).load(function(){
 	$.fn.hoverscroll.params = $.extend($.fn.hoverscroll.params, {
 		vertical : false,
 		width: 600,

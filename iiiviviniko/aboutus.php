@@ -46,17 +46,19 @@ $pageinfos = $pagedb->getPagesAllByPid($menuInfo['id']);
 <script type="text/javascript" src="js/jquery.hoverscroll.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
+$(window).load(function(){
 	$.fn.hoverscroll.params = $.extend($.fn.hoverscroll.params, {
 		vertical : false,
 		width: 600,
 		height: 100,
-		arrows: false
+		arrows: true
 	});
-	$('#my-list').hoverscroll();
-	$("#my-list")[0].startMoving(1, 3);
+	
 
 	$(".imagezoom").colorbox();
+
+	$('#my-list').hoverscroll();
+	$("#my-list")[0].startMoving(1, 3);
 });
 </script>
 </head>
@@ -75,9 +77,10 @@ $(document).ready(function(){
                  </p>
 			</div>
             <div class="aboutusimg">
-            <ul id="my-list">
+            <br /><br /><br />
+            <ul id="my-list" style="width: 600px;">
             	<?php foreach ($pageinfos as $page){?>
-            	<li><a class="imagezoom" href='<?php echo $page->imgbig; ?>' ><img src="<?php echo $page->imgsmall; ?>" /></a></li>
+            	<li><a class="imagezoom" href='<?php echo $root_path.$page->imgbig; ?>' ><img src="<?php echo $root_path.$page->imgsmall; ?>" /></a></li>
             	<?php }?>
             </ul>
             </div>

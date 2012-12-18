@@ -48,11 +48,14 @@ $stores = $storedb->getAllStores();
 <script type="text/javascript">
 
 $(document).ready(function(){
-	$(".stores-map > li").mouseover(function(){
+	$(".stores-map > li").click(function(){
 			var c = $(this).attr("class");
 			$(".stores-list").css("display", "none");
 			var d = ".storel_"+c.split("_")[1];
 			$(d).css("display", "block");
+
+			$(this).parent("ul").children("li").children("a").removeClass("current");
+			$(this).children("a").addClass("current")
 		})
 });
 </script>

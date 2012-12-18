@@ -225,10 +225,12 @@ div.hoverscroll div.arrow.left,div.hoverscroll div.arrow.right,div.hoverscroll d
 
 div.hoverscroll div.arrow.left,div.hoverscroll div.fixed-arrow.left {
 	left: 0px;
+	background-image:url('../images/arrow-left-small.png');
 }
 
 div.hoverscroll div.arrow.right,div.hoverscroll div.fixed-arrow.right {
 	right: 0px;
+	background-image:url('../images/arrow-right-small.png');
 }
 
 div.hoverscroll div.arrow.top,div.hoverscroll div.arrow.bottom,div.hoverscroll div.fixed-arrow.top,div.hoverscroll div.fixed-arrow.bottom

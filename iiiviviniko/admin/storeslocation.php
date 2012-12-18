@@ -46,8 +46,8 @@ $stores = $storedb->getAllStores();
 
 <script type="text/javascript">
 
-$(document).ready(function(){
-	$(".stores-map > li").mouseover(function(){
+$(window).load(function(){
+	$(".stores-map > li").click(function(){
 			var c = $(this).attr("class");
 			$(".stores-list").css("display", "none");
 			var d = ".storel_"+c.split("_")[1];
