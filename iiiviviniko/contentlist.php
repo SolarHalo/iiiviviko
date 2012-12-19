@@ -65,9 +65,12 @@ $pages = $pagedb->getPagesAllByPid($menuInfo['id']);
     			<?php 
     				foreach ($pages as $key=>$page){
     			?>
-    				<li><a href="content.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];
+    				<li><a <?php if($page->isvideo == 1) echo "class='imgBorder'";?> href="content.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];
     								 if(array_key_exists('ol', $_GET)) echo "&ol=".$_GET['ol']; ?>&page=<?php echo ($key+1);?>">
     					<img src="<?php echo $root_path.$page->imgsmall; ?>" />
+    					<?php if($page->isvideo == 1){?>
+    					<img src="images/play.png" class="playbut" />
+    					<?php }?>
     					</a>
     				</li>
     			<?php

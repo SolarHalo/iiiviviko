@@ -55,7 +55,7 @@ $pageInfo = $pagedb->getPageContent($menuInfo['id'], $nowpage);
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="js/jquery.hoverscroll.js"></script>
 <script type="text/javascript">
-
+<?php if($pageInfo->isvideo != 1){?>
 $(document).ready(function(){
 	$(".lookzoom").colorbox({inline:true, href:".photo_zoom",scrolling:false,opacity:1});
 
@@ -67,6 +67,7 @@ $(document).ready(function(){
 	});
 	$('#my-list').hoverscroll();
 });
+<?php }?>
 </script>
 </head>
 
@@ -77,6 +78,7 @@ $(document).ready(function(){
     	<?php include 'menulist.php'; ?>
     </div>
 	<div class="rightbox">
+	<?php if($pageInfo->isvideo != 1){?>
 		<div style="display: none; overflow: hidden;">
 			<a href="#" class='photo_zoom' onClick="$.colorbox.close();">
 				<ul id="my-list">
@@ -85,10 +87,15 @@ $(document).ready(function(){
 			</a>
 			
 		</div>
+	<?php }?>
     	<div class="cl_content">
+    		<?php if($pageInfo->isvideo == 1){
+    			echo $pageInfo->imgbig;
+    		 }else{?>
     		<a class="lookzoom" href="#" >
     			<img  src="<?php echo $root_path.$pageInfo->imgbig;?>" style="max-width: 400px; max-height: 600px;"/>
     		</a>
+    		<?php }?>
         </div>
         <div class="cr_content">
         	<span>READY TO WEAR</span>
@@ -100,7 +107,9 @@ $(document).ready(function(){
                 <a <?php if($nowpage < $pageCount ) { ?> href="content.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];
                 													if(array_key_exists('ol', $_GET)) echo "&ol=".$_GET['ol']; ?>&page=<?php echo ($nowpage+1);?>" <?php } else echo "href='#'";?>>NEXT</a>
             </div>
-           
+           <p>
+           <?php echo $pageInfo->desc;?>
+           </p>
             <a href="contentlist.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];
             											if(array_key_exists('ol', $_GET)) echo "&ol=".$_GET['ol'];?>" class="back">&lt;&nbsp;BACK</a>
         </div> 

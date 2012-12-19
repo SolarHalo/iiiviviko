@@ -1,3 +1,4 @@
+<a href="menuoperation.php" style="background-color: #EEEEEE;border: medium none #CCCCCC;font-size: 16px;padding: 4px;">管理菜单</a>
 <?php 
     		foreach ($menus as $menu){
     	?>

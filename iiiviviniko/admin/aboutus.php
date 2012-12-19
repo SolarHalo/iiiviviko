@@ -44,21 +44,19 @@ $pageinfos = $pagedb->getPagesAllByPid($menuInfo['id']);
 <link href="../style/colorbox.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="../js/jquery-1.8.0.min.js" ></script>
 
-<script type="text/javascript" src="../js/listmenu.js"></script>
-<script type="text/javascript" src="../js/jquery.hoverscroll.js"></script>
-<script type="text/javascript" src="../js/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-$(window).load(function(){
-	$.fn.hoverscroll.params = $.extend($.fn.hoverscroll.params, {
-		vertical : false,
-		width: 600,
-		height: 100,
-		arrows: false
-	});
-	$('#my-list').hoverscroll();
-	$("#my-list")[0].startMoving(1, 3);
-
-	$(".imagezoom").colorbox();
+$(document).ready(function(){
+	$(".deleteimage").click(function(){
+			var ele = $(this);
+			var id = $(this).attr("delid");
+			$.ajax({
+				'url': "./ajaxoperation.php",
+				'data': {'method': 'delpage', 'id': id},
+				'success': function (data){
+					ele.parent("li").remove();
+				}
+				});
+		});
 });
 </script>
 </head>
@@ -77,14 +75,17 @@ $(window).load(function(){
                  </p>
 			</div>
             <div class="aboutusimg">
-            <ul id="my-list">
+            <ul class="images-list">
             	<?php foreach ($pageinfos as $page){?>
-            	<li><a class="imagezoom" href='<?php echo $page->imgbig; ?>' ><img src="<?php echo $page->imgsmall; ?>" /></a></li>
+            	<li><img src="<?php echo $root_path.$page->imgsmall; ?>" />
+            		<img src="../images/deleteimage.png" alt="" delid="<?php echo $page->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/>
+            	</li>
             	<?php }?>
-            </ul>
-            	<a href="./addimage.php?pid=<?php echo $menuInfo['id']; ?>">
+            	<li><a href="./addimage.php?pid=<?php echo $menuInfo['id']; ?>">
     					<img src="../images/addimage.png" alt="添加图片" />添加图片
     				</a>
+    			</li>
+            </ul>
             </div>
             <div class="aboutustel">
             	<img src="../images/tel.gif" />

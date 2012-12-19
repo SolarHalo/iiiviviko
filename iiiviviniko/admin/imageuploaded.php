@@ -3,37 +3,62 @@ include '../load.php';
 $pagedb = new Page($dbutil);
 
 $success = false;
-
 if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST) 
-	&& array_key_exists('imagesmall', $_FILES) && array_key_exists('imagebig', $_FILES))){
+	&& array_key_exists('imagesmall', $_FILES) && (array_key_exists('imagebig', $_FILES) || array_key_exists('imagebig', $_POST)))){
 	$success = false;
 }else{
-	$name = $_POST['name'];
-	$pid = $_POST['pid'];
-	$filename_s = explode(".", $_FILES['imagesmall']['name']);
-	$filename_b = explode(".", $_FILES['imagebig']['name']);
-	$time = date('Y-m-d-H-i-s');
-	$rand = rand();
-	$filename_s[0] = $rand."-".$time."-small";
-	$filename_b[0] = $rand."-".$time."-big";
-	$image_s = IMAGEPATH.implode(".", $filename_s);
-	$image_b = IMAGEPATH.implode(".", $filename_b);
-	if(!move_uploaded_file($_FILES['imagesmall']['tmp_name'], $image_s)){
-		$success = false;
-	}else{
-		$success = true;
+	$type = $_POST['type'];
+	if($type == "image"){
+		$name = $_POST['name'];
+		$pid = $_POST['pid'];
+		$desc = $_POST['desc'];
+		$filename_s = explode(".", $_FILES['imagesmall']['name']);
+		$filename_b = explode(".", $_FILES['imagebig']['name']);
+		$time = date('Y-m-d-H-i-s');
+		$rand = rand();
+		$filename_s[0] = $rand."-".$time."-small";
+		$filename_b[0] = $rand."-".$time."-big";
+		$image_s = IMAGEPATH.implode(".", $filename_s);
+		$image_b = IMAGEPATH.implode(".", $filename_b);
+		if(!move_uploaded_file($_FILES['imagesmall']['tmp_name'], $image_s)){
+			$success = false;
+		}else{
+			$success = true;
+		}
+		if(move_uploaded_file($_FILES['imagebig']['tmp_name'], $image_b)){
+			$success = true;
+		}else{
+			$success = false;
+		}
+		if($success){
+			$time=date('Y-m-d H:i:s');
+			$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
+				 "imgbig"=>"/imageupload/".implode(".", $filename_b), "createtime" =>$time, "desc"=>$desc );
+			$pagedb->insertPageContent($pagesmall);
+		}
+	}else if($type == "video"){
+		$name = $_POST['name'];
+		$video = $_POST['imagebig'];
+		$desc = $_POST['desc'];
+		$pid = $_POST['pid'];
+		$filename_s = explode(".", $_FILES['imagesmall']['name']);
+		$time = date('Y-m-d-H-i-s');
+		$rand = rand();
+		$filename_s[0] = $rand."-".$time."-small";
+		$image_s = IMAGEPATH.implode(".", $filename_s);
+		if(!move_uploaded_file($_FILES['imagesmall']['tmp_name'], $image_s)){
+			$success = false;
+		}else{
+			$success = true;
+		}
+		if($success){
+			$time=date('Y-m-d H:i:s');
+			$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
+				 "imgbig"=>$video, "createtime" =>$time , "desc"=>$desc, "isvideo"=>1);
+			$pagedb->insertPageContent($pagesmall);
+		}
 	}
-	if(move_uploaded_file($_FILES['imagebig']['tmp_name'], $image_b)){
-		$success = true;
-	}else{
-		$success = false;
-	}
-	if($success){
-		$time=date('Y-m-d H:i:s');
-		$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
-			 "imgbig"=>"/imageupload/".implode(".", $filename_b), "createtime" =>$time );
-		$pagedb->insertPageContent($pagesmall);
-	}
+		
 }
 
 ?>
