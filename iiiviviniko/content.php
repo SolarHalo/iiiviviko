@@ -46,7 +46,7 @@ $pageInfo = $pagedb->getPageContent($menuInfo['id'], $nowpage);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" /> 
-<title>iiiviviniko</title> 
+<title>III VIVINIKO 时装官网</title> 
 <link href="style/style.css" type="text/css" rel="stylesheet" />
 <link href="style/colorbox.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="http://iiiviviniko.com"><img src="images/logo.jpg" /></a></div>   
     <div class="left-menu">
     	<?php include 'menulist.php'; ?>
     </div>
@@ -90,7 +90,7 @@ $(document).ready(function(){
 	<?php }?>
     	<div class="cl_content">
     		<?php if($pageInfo->isvideo == 1){
-    			echo $pageInfo->imgbig;
+    			echo stripcslashes($pageInfo->imgbig);
     		 }else{?>
     		<a class="lookzoom" href="#" >
     			<img  src="<?php echo $root_path.$pageInfo->imgbig;?>" style="max-width: 400px; max-height: 600px;"/>

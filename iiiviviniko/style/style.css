@@ -164,6 +164,7 @@ a {
 	height:120px;
 	width:120px;
 	}
+
 .cr_content{
 	float:left;
 	width:165px;
@@ -185,7 +186,10 @@ a {
 	color:#828282;
 	padding:0 5px;
 	}
-.stores-map a:hover,.page a:hover{
+.page a:hover{
+	color:#333; 
+	}
+.stores-map .stores-list-active,.stores-map a:hover{
 	color:#333;
 	font-weight:bold;
 	}
@@ -336,7 +340,7 @@ a {
 
 
 
-/*==========================   新加about us 幻灯片样式  ===============================*/
+/*==========================   鏂板姞about us 骞荤伅鐗囨牱寮� ===============================*/
 
 .f12 {	FONT-SIZE: 12px}
  
@@ -355,16 +359,24 @@ a {
 .blk_29 .Cont {	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 888px; PADDING-TOP: 5px; height:90px;}
 .blk_29 .box {	FLOAT: left; WIDTH:120px; TEXT-ALIGN: center; margin:0 3px 0 0;}
 .rollphotos {	MARGIN-TOP:10px;WIDTH:515px;}
-.playbut{ position:relative; top:-60px; left:44px;}
-
-.imgBorder .playbut{
-	display:none;}
+.playbut{ position:relative; top:-60px; left:44px; display:block;}
+ 
 .imgBorder:hover .playbut{
-	display:block;
+	height:41px;
+	width:41px;
+	top:-61px;
+	left:43px;
 	}
 
-
-
+.images-list li a .playbut{
+	position:relative; top:-85px; left:40px; display:block; width:40px; height:40px; border:none;
+	}
+.images-list li a:hover .playbut{
+	height:41px;
+	width:41px;
+	top:-86px;
+	left:39px;
+	}
 
 
 

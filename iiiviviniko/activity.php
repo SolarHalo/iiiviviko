@@ -37,7 +37,7 @@ $activities = $category->getActivits($menuInfo['id']);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" /> 
-<title>iiiviviniko</title> 
+<title>III VIVINIKO 时装官网</title> 
 <link href="style/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
 
@@ -47,7 +47,7 @@ $activities = $category->getActivits($menuInfo['id']);
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="http://iiiviviniko.com"><img src="images/logo.jpg" /></a></div>   
     <div class="left-menu">
 		<?php include 'menulist.php';?>    	
     </div>

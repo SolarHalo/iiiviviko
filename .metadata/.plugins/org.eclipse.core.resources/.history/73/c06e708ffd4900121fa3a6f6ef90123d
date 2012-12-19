@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" /> 
+<title>III VIVINIKO 时装官网</title> 
+<link href="style/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>  
+<div class="enter">
+	<span><a href="http://iiiviviniko.com">ENTER</a></span>
+</div>
+<div class="slides">
+  <ul class="slide-pic">
+    <li class="cur"  style="display: block;"><a href="home.php"><img src="images/show01.jpg"></a></li>
+    <li class="" style="display: none;"><a href="home.php"><img src="images/show02.jpg"></a></li>
+    <li class="" style="display: none;"><a href="home.php"><img src="images/show03.jpg"></a></li>
+    <li class="" style="display: none;"><a href="home.php"><img src="images/show04.jpg"></a></li>
+    <li class="" style="display: none;"><a href="home.php"><img src="images/show05.jpg"></a></li>
+    <li class="" style="display: none;"><a href="home.php"><img src="images/show06.jpg"></a></li> 
+  </ul> 
+  <ul class="slide-li slide-txt">
+    <li class="cur"> </li>
+    <li class=""> </li>
+    <li class=""> </li>
+    <li class=""> </li>
+    <li class=""> </li>
+    <li class=""> </li> 
+  </ul>
+</div>       
+<div class="logo"><a href="#"><img src="images/home_logo.jpg" /></a></div>
+<script src="style/jquery.js"></script>
+<script src="style/show.js" ></script> 
+</body>
+</html>

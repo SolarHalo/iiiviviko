@@ -13,14 +13,14 @@ $menus = $category->getAllMenu();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>iiiviviniko</title> 
+<title>III VIVINIKO 时装官网</title> 
 <link href="style/style.css" type="text/css" rel="stylesheet" />
 
 </head>
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="index.html"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="http://iiiviviniko.com"><img src="images/logo.jpg" /></a></div>   
     <div class="left-menu">
     	<?php 
     		foreach ($menus as $menu){

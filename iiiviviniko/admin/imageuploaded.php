@@ -39,6 +39,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 	}else if($type == "video"){
 		$name = $_POST['name'];
 		$video = $_POST['imagebig'];
+		$video =stripcslashes( str_replace(PHP_EOL, '', $video));
 		$desc = $_POST['desc'];
 		$pid = $_POST['pid'];
 		$filename_s = explode(".", $_FILES['imagesmall']['name']);

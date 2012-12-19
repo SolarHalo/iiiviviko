@@ -58,6 +58,7 @@ $(document).ready(function(){
     				<option>华北区</option>
     				<option>东北区</option>
     				<option>西南区</option>
+    				<option>西北区</option>
     			</select><br/><br/>
     			名称: <input type="text" name="name" size="50"/><br/><br/>
     			地址: <input name="address" type="text" size="50"></input><br/><br/>

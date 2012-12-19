@@ -4,13 +4,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" /> 
-<title>404 - iiiviviniko</title> 
+<title>404 - III VIVINIKO 时装官网</title> 
 <link href="style/style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
 <div class="container">
-    <div class="headlogo"><a href="#"><img src="images/logo.jpg" /></a></div>   
+    <div class="headlogo"><a href="http://iiiviviniko.com"><img src="images/logo.jpg" /></a></div>   
 	<div class="rightbox">
     	<div class="cl_content">
     		<p style="font-size: 30px;font-weight: bold;">404 ,您要访问的页面不存在!</p>

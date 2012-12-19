@@ -38,7 +38,7 @@ class Page{
 	}
 	
 	function insertPageContent($page){
-		$this->dbutil->insert("pages", $page);
+		$re = $this->dbutil->insert("pages", $page);
 	}
 	
 	function getPageById($id){
