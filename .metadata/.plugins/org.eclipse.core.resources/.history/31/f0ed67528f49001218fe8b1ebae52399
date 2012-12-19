@@ -75,8 +75,6 @@ a {
 	width:980px;
 	padding:20px 0;
 	position:fixed;
-	top:0;left:50%;
-	margin-left:-490px;
 	text-align:center;
 	z-index:5;
 	background:#fff;
@@ -89,11 +87,9 @@ a {
 	width:165px;
 	position:fixed;
 	top:108px;
-	letter-spacing:1.3px; 
+	letter-spacing:1px; 
     text-align:left;
 	text-transform:uppercase;
-	margin-left:-490px;
-	left:50%
 	}
 .rightbox{
 	float:left;
@@ -187,7 +183,6 @@ a {
 	}
 .stores-map a:hover,.page a:hover{
 	color:#333;
-	font-weight:bold;
 	}
 .page{
 	color:#828282;
@@ -242,7 +237,6 @@ a {
 .stores-list p{
 	color:#666;
 	line-height:18px;
-	height:22px;
 	}
 .work{
 	float:left;
@@ -298,70 +292,14 @@ a {
 	display:none;
 	}
 
-.aboutustext{
-	width:515px;
-	text-align:left;
-	line-height:26px;
-	margin:30px 0 0 50px;
-	letter-spacing:0.5px;
-	}
-.aboutustext img{
-	vertical-align:text-bottom;
-	}
-.fl{
-	float:left;
-	}
-.aboutusimg{
-	float:left;
-	margin:90px 0 30px 50px;
-	width:515px;
-	text-align:left;
-	overflow:hidden;
-	}
-.aboutustel{
-	color: #999999;
-    float:left;
-    letter-spacing:1px;
-    line-height:20px;
-    margin: 0 0 50px 50px;
-    text-align:left;
-    width:500px;
-}
-
-.aboutustel img{
-	vertical-align:text-top;
-	padding:0 15px 0 0;
-	float:left;
-	}
 
 
 
-/*==========================   新加about us 幻灯片样式  ===============================*/
 
-.f12 {	FONT-SIZE: 12px}
- 
-.F14lists {	LINE-HEIGHT: 23px}
-.F14lists UL {	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px}
-.F14lists LI {	PADDING-LEFT: 2px; FONT-SIZE: 14px; VERTICAL-ALIGN: bottom}
-.F14lists LI SPAN {	FONT-SIZE: 9px; COLOR: #533826} 
-.FixTitle {	BORDER-RIGHT: #a2d1ff 1px solid; BORDER-TOP: #a2d1ff 1px solid; OVERFLOW: hidden; BORDER-LEFT: #a2d1ff 1px solid; LINE-HEIGHT: 24px; BORDER-BOTTOM: #a2d1ff 1px solid; HEIGHT: 24px}
- 
-.RForm {	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px}
-.RForm DT {	LINE-HEIGHT: 23px}
-.RformB {	PADDING-LEFT: 10px}
-.blk_29 {OVERFLOW: hidden; ZOOM: 1; POSITION: relative; padding:0 13px;}
-.blk_29 .LeftBotton {	BACKGROUND: url(../images/ca_hz_002.jpg) no-repeat 0px -14px; LEFT:0; FLOAT: left; WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP:5px; HEIGHT:80px}
-.blk_29 .RightBotton {	RIGHT:0px; BACKGROUND: url(../images/ca_hz_002.jpg) no-repeat -11px -14px; FLOAT: right; WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 80px}
-.blk_29 .Cont {	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 888px; PADDING-TOP: 5px; height:90px;}
-.blk_29 .box {	FLOAT: left; WIDTH:120px; TEXT-ALIGN: center; margin:0 3px 0 0;}
-.rollphotos {	MARGIN-TOP:10px;WIDTH:515px;}
-.playbut{ position:relative; top:-60px; left:44px;}
 
-.imgBorder .playbut{
-	display:none;}
-.imgBorder:hover .playbut{
-	display:block;
-	}
+
+
+
 
 
 
