@@ -121,8 +121,8 @@ $(document).ready(function(){
     					</a>
     					<div class="hide namediv"><?php echo $page->name;?></div>
     					<div class="hide descdiv"><?php echo $page->desc;?></div>
-    						<img src="../images/deleteimage.png" title="删除图片" delid="<?php echo $page->id; ?>" class="deleteimage" style="width: 16px; height: 16px;" />
-    						<img src="../images/edit.png" title="编辑内容" updid="<?php echo $page->id; ?>" class="editmenu" style="width: 16px; height: 16px;"/>
+    						<img src="../images/deleteimage.png" title="删除图片" delid="<?php echo $page->id; ?>" class="deleteimage" style="width: 16px; height: 16px; position:relative; top:-18px; left:-5px;" />
+    						<img src="../images/edit.png" title="编辑内容" updid="<?php echo $page->id; ?>" class="editmenu" style="width: 16px; height: 16px;  position:relative; top:-18px; right:10px;"/>
     				</li>
     			<?php
     				}

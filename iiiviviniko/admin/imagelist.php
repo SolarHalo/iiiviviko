@@ -113,8 +113,8 @@ $(document).ready(function(){
     				</a>
     					<div class="hide namediv"><?php echo $img->name;?></div>
     					<div class="hide descdiv"><?php echo $img->desc;?></div>
-	    				<img src="../images/deleteimage.png" alt="" delid="<?php echo $img->id; ?>" class="deleteimage" style="width: 16px; height: 16px;"/>
-	    				<img src="../images/edit.png" title="编辑列表" updid="<?php echo $img->id; ?>" class="editmenu" style="width: 16px; height: 16px;"/>
+	    				<img src="../images/deleteimage.png" alt="" delid="<?php echo $img->id; ?>" class="deleteimage" style="width: 16px; height: 16px; position:relative; top:-18px; left:-5px;"/>
+	    				<img src="../images/edit.png" title="编辑列表" updid="<?php echo $img->id; ?>" class="editmenu" style="width: 16px; height: 16px; position:relative; top:-18px; right:10px;"/>
     			</li>
     			<?php
     				}

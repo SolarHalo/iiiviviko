@@ -102,9 +102,9 @@ $(document).ready(function(){
         	<ul class="text-list">
         		<?php foreach ($activities as $activity){?>
         		<li>
-        			<a class="textlist descdiv" href="<?php echo $root_path;?>/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>" style="display: inline-block; width: 540px; "><?php echo $activity->desc;?>
+        			<a class="textlist descdiv" href="<?php echo $root_path;?>/admin/contentlist.php?menu=<?php echo $_GET['menu'];?>&ol=<?php echo $activity->id;?>" style="display: inline-block; width: 530px; "><?php echo $activity->desc;?>
         			</a>
-        			<img src="../images/edit.png" title="编辑列表" updid="<?php echo $activity->id; ?>" class="editmenu" style="width: 16px; height: 16px;"/>
+        			<img src="../images/edit.png" title="编辑列表" updid="<?php echo $activity->id; ?>" class="editmenu" style="width: 16px; height: 16px; float: none; margin: 0;"/>
         			<img src="../images/deleteimage.png" alt="" delid="<?php echo $activity->id; ?>" class="deleteimage" style="width: 16px; height: 16px; float: none;margin: 0;"/>
         		</li>
         		<?php }?>

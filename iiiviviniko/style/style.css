@@ -270,7 +270,6 @@ a {
 .deleteimage{
 	width: 16px;
 	height: 16px;
-	margin-bottom: -10px;
 	cursor: pointer;
     float: right;
 }
@@ -279,6 +278,7 @@ a {
 	width: 16px;
 	height: 16px;
 	cursor: pointer;
+	float: right;
 }
 
 .listhidden ul li{
