@@ -18,4 +18,6 @@
     	<?php 		
     		}
     	?>
-    	
+    	 <div class="current">
+        	<a href="http://e.weibo.com/iiiviviniko" class="wblogo" target="_blank"><img src="./images/WB_logo.png" class="wblogo1" /><img src="images/WB_logo2.png" class="wblogo2" /></a>
+        </div>

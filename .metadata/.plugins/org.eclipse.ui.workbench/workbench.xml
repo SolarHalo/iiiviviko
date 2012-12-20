@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="25" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -23,9 +23,10 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="309" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.php.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -34,10 +35,91 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.php.editor" name="404.php" partName="404.php" path="G:/iiivi/iiiviviniko/404.php" title="404.php" tooltip="iiiviviniko/404.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/404.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="512" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="aboutus.php" partName="aboutus.php" path="G:/iiivi/iiiviviniko/aboutus.php" title="aboutus.php" tooltip="iiiviviniko/aboutus.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/aboutus.php"/>
+<editorState selectionHorizontalPixel="594" selectionLength="0" selectionOffset="2493" selectionTopPixel="924"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="activity.php" partName="activity.php" path="G:/iiivi/iiiviviniko/activity.php" title="activity.php" tooltip="iiiviviniko/activity.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/activity.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1266" selectionTopPixel="510"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="content.php" partName="content.php" path="G:/iiivi/iiiviviniko/content.php" title="content.php" tooltip="iiiviviniko/content.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/content.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2121" selectionTopPixel="969"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="contentlist.php" partName="contentlist.php" path="G:/iiivi/iiiviviniko/contentlist.php" title="contentlist.php" tooltip="iiiviviniko/contentlist.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/contentlist.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1456" selectionTopPixel="663"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="home.php" partName="home.php" path="G:/iiivi/iiiviviniko/home.php" title="home.php" tooltip="iiiviviniko/home.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/home.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="626" selectionTopPixel="153"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="imagelist.php" partName="imagelist.php" path="G:/iiivi/iiiviviniko/imagelist.php" title="imagelist.php" tooltip="iiiviviniko/imagelist.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/imagelist.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1229" selectionTopPixel="510"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="G:/iiivi/iiiviviniko/index.html" title="index.html" tooltip="iiiviviniko/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="492" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="config.php" partName="config.php" path="G:/iiivi/iiiviviniko/config.php" title="config.php" tooltip="iiiviviniko/config.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/config.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="load.php" partName="load.php" path="G:/iiivi/iiiviviniko/load.php" title="load.php" tooltip="iiiviviniko/load.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/load.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="menulist.php" partName="menulist.php" path="G:/iiivi/iiiviviniko/menulist.php" title="menulist.php" tooltip="iiiviviniko/menulist.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/menulist.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="PageDB.php" partName="PageDB.php" path="G:/iiivi/iiiviviniko/PageDB.php" title="PageDB.php" tooltip="iiiviviniko/PageDB.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/PageDB.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="153"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="pathtest.php" partName="pathtest.php" path="G:/iiivi/iiiviviniko/pathtest.php" title="pathtest.php" tooltip="iiiviviniko/pathtest.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/pathtest.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="StoresDB.php" partName="StoresDB.php" path="G:/iiivi/iiiviviniko/StoresDB.php" title="StoresDB.php" tooltip="iiiviviniko/StoresDB.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/StoresDB.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="aboutus2.php" partName="aboutus2.php" path="G:/iiivi/iiiviviniko/aboutus2.php" title="aboutus2.php" tooltip="iiiviviniko/aboutus2.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/aboutus2.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1405" selectionTopPixel="856"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="G:/iiivi/iiiviviniko/style/style.css" title="style.css" tooltip="iiiviviniko/style/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iiiviviniko/style/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7425" selectionTopPixel="5882"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
@@ -57,7 +139,7 @@
 </viewState>
 </view>
 <view id="org.eclipse.php.ui.explorer" partName="PHP Explorer">
-<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
+<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="1" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.php.ui.explorer.EmptyInnerPackageFilter" isEnabled="false"/>
@@ -88,7 +170,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.php.ui.explorer" activePerspective="org.eclipse.php.perspective">
+<perspectives activePart="org.eclipse.wst.css.core.csssource.source" activePerspective="org.eclipse.php.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.php.internal.ui.PHPPerspectiveFactory" id="org.eclipse.php.perspective" label="PHP"/>
 <alwaysOnActionSet id="com.vmware.remotedebug.ccpp.actionSet"/>
@@ -231,12 +313,189 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/404.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/aboutus.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/activity.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/content.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/contentlist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/home.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/imagelist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/iiiviviniko/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/load.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/menulist.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/PageDB.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/pathtest.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/StoresDB.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/iiiviviniko/storeslocation.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/iiiviviniko/about us.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/iiiviviniko/aboutus2.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/iiiviviniko/style/style.css"/>
+</editors>
+<item historyLabel="content.php" index="3">
+<position info="not_deleted" x="1173" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="404.php" index="0">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="990" y="0"/>
+</item>
+<item historyLabel="activity.php" index="2">
+<position info="not_deleted" x="949" y="0"/>
+</item>
+<item historyLabel="content.php" index="3">
+<position info="not_deleted" x="1173" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="4">
+<position info="not_deleted" x="1139" y="0"/>
+</item>
+<item historyLabel="home.php" index="5">
+<position info="not_deleted" x="453" y="0"/>
+</item>
+<item historyLabel="imagelist.php" index="6">
+<position info="not_deleted" x="912" y="0"/>
+</item>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="1440" y="0"/>
+</item>
+<item historyLabel="404.php" index="0">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="1842" y="0"/>
+</item>
+<item historyLabel="activity.php" index="2">
+<position info="not_deleted" x="1266" y="0"/>
+</item>
+<item historyLabel="config.php" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="content.php" index="3">
+<position info="not_deleted" x="2121" y="0"/>
+</item>
+<item historyLabel="contentlist.php" index="4">
+<position info="not_deleted" x="1456" y="0"/>
+</item>
+<item historyLabel="home.php" index="5">
+<position info="not_deleted" x="626" y="0"/>
+</item>
+<item historyLabel="imagelist.php" index="6">
+<position info="not_deleted" x="1229" y="0"/>
+</item>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="1440" y="0"/>
+</item>
+<item historyLabel="load.php" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menulist.php" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PageDB.php" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="pathtest.php" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menulist.php" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="StoresDB.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="storeslocation.php" index="14">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="imagelist.php" index="6">
+<position info="not_deleted" x="1229" y="0"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="1842" y="0"/>
+</item>
+<item historyLabel="activity.php" index="2">
+<position info="not_deleted" x="1266" y="0"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="1723" y="0"/>
+</item>
+<item historyLabel="storeslocation.php" index="14">
+<position info="not_deleted" x="1272" y="0"/>
+</item>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="about us.html" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="0" y="1349"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="0" y="1748"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position/>
+</item>
+<item historyLabel="storeslocation.php" index="14">
+<position info="not_deleted" x="1712" y="1048"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="2678" y="189"/>
+</item>
+<item historyLabel="storeslocation.php" index="14">
+<position info="not_deleted" x="1712" y="1048"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="1770" y="189"/>
+</item>
+<item historyLabel="storeslocation.php" index="14">
+<position info="not_deleted" x="1712" y="1048"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="1770" y="189"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="1760" y="1177"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="1770" y="189"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="3167" y="0"/>
+</item>
+<item historyLabel="activity.php" index="2">
+<position info="not_deleted" x="1266" y="0"/>
+</item>
+<item historyLabel="aboutus.php" index="1">
+<position info="not_deleted" x="2493" y="0"/>
+</item>
+<item historyLabel="aboutus2.php" index="16">
+<position info="not_deleted" x="1405" y="0"/>
+</item>
+<item active="true" historyLabel="style.css" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -246,54 +505,55 @@
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="com.zend.php.callout.toolbar"/>
 <trimItem IMemento.internal.id="org.zend.php.framework.toolbar"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="C:\Users\Administrator.WIN-2VI9M318GQ7\Downloads\index.php">
-<persistable uri="file:/C:/Users/Administrator.WIN-2VI9M318GQ7/Downloads/index.php"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="iiiviviniko/style/style.css">
 <persistable path="/iiiviviniko/style/style.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="menuoperation.php" tooltip="iiiviviniko/admin/menuoperation.php">
-<persistable path="/iiiviviniko/admin/menuoperation.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="about us.html" tooltip="iiiviviniko/about us.html">
+<persistable path="/iiiviviniko/about us.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery.dragsort-0.4.min.js" tooltip="iiiviviniko/js/jquery.dragsort-0.4.min.js">
-<persistable path="/iiiviviniko/js/jquery.dragsort-0.4.min.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="storeslocation.php" tooltip="iiiviviniko/storeslocation.php">
+<persistable path="/iiiviviniko/storeslocation.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="storeslocation.php" tooltip="iiiviviniko/admin/storeslocation.php">
-<persistable path="/iiiviviniko/admin/storeslocation.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="StoresDB.php" tooltip="iiiviviniko/StoresDB.php">
+<persistable path="/iiiviviniko/StoresDB.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ajaxoperation.php" tooltip="iiiviviniko/admin/ajaxoperation.php">
-<persistable path="/iiiviviniko/admin/ajaxoperation.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="pathtest.php" tooltip="iiiviviniko/pathtest.php">
+<persistable path="/iiiviviniko/pathtest.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="contentlist.php" tooltip="iiiviviniko/admin/contentlist.php">
-<persistable path="/iiiviviniko/admin/contentlist.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="imagelist.php" tooltip="iiiviviniko/admin/imagelist.php">
-<persistable path="/iiiviviniko/admin/imagelist.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="activity.php" tooltip="iiiviviniko/admin/activity.php">
-<persistable path="/iiiviviniko/admin/activity.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addactivityaction.php" tooltip="iiiviviniko/admin/addactivityaction.php">
-<persistable path="/iiiviviniko/admin/addactivityaction.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addactivity.php" tooltip="iiiviviniko/admin/addactivity.php">
-<persistable path="/iiiviviniko/admin/addactivity.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="activity.php" tooltip="iiiviviniko/activity.php">
-<persistable path="/iiiviviniko/activity.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="PageDB.php" tooltip="iiiviviniko/PageDB.php">
+<persistable path="/iiiviviniko/PageDB.php"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="menulist.php" tooltip="iiiviviniko/menulist.php">
 <persistable path="/iiiviviniko/menulist.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="work.php" tooltip="iiiviviniko/admin/work.php">
-<persistable path="/iiiviviniko/admin/work.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="load.php" tooltip="iiiviviniko/load.php">
+<persistable path="/iiiviviniko/load.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="work.php" tooltip="iiiviviniko/work.php">
-<persistable path="/iiiviviniko/work.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="config.php" tooltip="iiiviviniko/config.php">
+<persistable path="/iiiviviniko/config.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="iiiviviniko/index.html">
+<persistable path="/iiiviviniko/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="imagelist.php" tooltip="iiiviviniko/imagelist.php">
+<persistable path="/iiiviviniko/imagelist.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="home.php" tooltip="iiiviviniko/home.php">
+<persistable path="/iiiviviniko/home.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="contentlist.php" tooltip="iiiviviniko/contentlist.php">
+<persistable path="/iiiviviniko/contentlist.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="content.php" tooltip="iiiviviniko/content.php">
+<persistable path="/iiiviviniko/content.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="activity.php" tooltip="iiiviviniko/activity.php">
+<persistable path="/iiiviviniko/activity.php"/>
 </file>
 </mruList>
 </workbench>
