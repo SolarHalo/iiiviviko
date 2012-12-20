@@ -8,7 +8,7 @@ $mainMenu =  $_GET['menu'];
 $menuInfo = null;
 if(array_key_exists('list', $_GET)){
 	foreach ($menus as $menu){
-		if($menu['name'] == $mainMenu){
+		if(trim($menu['name']) == $mainMenu){
 			foreach ($menu['submenu'] as $submenu){
 				if($submenu['name'] == $_GET['list']){
 					$menuInfo = $submenu;
@@ -19,7 +19,7 @@ if(array_key_exists('list', $_GET)){
 	}
 }else{
 	foreach ($menus as $menu){
-		if($menu['name'] == $mainMenu){
+		if(trim($menu['name']) == $mainMenu){
 			$menuInfo = $menu;
 			break;
 		}
@@ -62,7 +62,7 @@ $imgList = $category->getActivits($menuInfo['id']);
             </ul>
         </div>
         <div class="cr_content">
-        	<span>ABOUT<font>&nbsp;<?php if(array_key_exists('list', $_GET)) echo $_GET['list']; else $_GET['menu'];?></font></span>
+        	<span>ABOUT<font>&nbsp;<?php if(array_key_exists('list', $_GET)) echo $_GET['list']; else echo $mainMenu;?></font></span>
             <p>
             	<?php echo $menuInfo['desc'];?>
             </p>

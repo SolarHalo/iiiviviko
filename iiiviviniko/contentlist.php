@@ -79,7 +79,12 @@ $pages = $pagedb->getPagesAllByPid($menuInfo['id']);
             </ul>
         </div>
         <div class="cr_content">
-        	<span>ABOUT<font>&nbsp;<?php if(array_key_exists('list', $_GET)) echo $_GET['list']; else echo $mainMenu; ?></font></span>
+        	<span><?php if(array_key_exists('list', $_GET) && $menuInfo['name'] == 'III VIVINIKO‘S LETTER'){?>
+        		WHAT IS
+        	<?php }else{?>
+        		ABOUT
+        	<?php }?>
+        		<font>&nbsp;<?php if(array_key_exists('list', $_GET)) echo $_GET['list']; else echo $mainMenu; ?></font></span>
             <p>
             	<?php echo $menuInfo['desc'];?>
             </p>

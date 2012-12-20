@@ -66,6 +66,13 @@ if($method == "delpage"){
 		$catedb->updateMenu(array('rank'=>$key ), (int)($value));
 	}
 	echo "success";
+}else if($method == "updatepage"){
+	$id = $_GET['id'];
+	$name = $_GET['name'];
+	$desc = $_GET['desc'];
+	$pagedb = new Page($dbutil);
+	$pagedb->updatePageById(array('name'=>$name, 'desc'=>$desc), $id);
+	echo "success";
 }
 
 ?>

@@ -53,5 +53,9 @@ class Page{
 	function deletePageByPid($pid){
 		$this->dbutil->query("delete  from pages where pid=".$pid);
 	}
+	
+	function updatePageById($data, $id){
+		$this->dbutil->update("pages", $data, array('id'=>$id));
+	}
 }
 ?>
