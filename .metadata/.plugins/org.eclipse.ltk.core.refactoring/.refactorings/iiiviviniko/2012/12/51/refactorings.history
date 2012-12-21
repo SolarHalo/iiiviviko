@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;iiiviviniko/about us.html&apos; to &apos;aboutus2.php&apos;" description="Rename resource &apos;about us.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="about us.html" name="aboutus2.php" stamp="1355936894945" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;iiiviviniko/js/ScrollPic.js_&apos; to &apos;ScrollPic.js&apos;" description="Rename resource &apos;ScrollPic.js_&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="js/ScrollPic.js_" name="ScrollPic.js" stamp="1355937823205" updateReferences="true"/>
-</session>
