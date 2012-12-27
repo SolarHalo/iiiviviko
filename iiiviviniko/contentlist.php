@@ -23,7 +23,7 @@ if(array_key_exists('list', $_GET)){
 	}
 }else{
 	foreach ($menus as $menu){
-		if($menu['name'] == $mainMenu){
+		if(trim($menu['name']) == trim($mainMenu)){
 			$menuInfo = $menu;
 			$pmenu = $menu;
 			break;

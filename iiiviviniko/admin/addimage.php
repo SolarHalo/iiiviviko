@@ -38,6 +38,17 @@ if(!array_key_exists('pid', $_GET)){
 		    				<input type="text" name="name"  class="input-xlarge"/>
 	    				</div>
 	    			</div>
+	    			<div class="control-group">
+	    				<label class="control-label" for="imgsmall">内容页标题:</label> 
+	    				<div class="controls">
+		    				<select name="title">
+		    					<option value="READY TO WEAR">默认READY TO WEAR</option>
+		    					<option value="<?php echo $_GET['list'];?>">显示父分类名称 <?php echo $_GET['list'];?></option>
+		    					<option value="<?php echo $_GET['menu']?>">显示主分类名称 <?php echo $_GET['menu']?></option>
+		    					<option value="<?php echo $_GET['list']." ".$_GET['menu'];?>">显示父分类名称+主分类名称 <?php echo $_GET['list']." ".$_GET['menu'];?></option>
+		    				</select>
+	    				</div>
+	    			</div>
 			  		<div class="control-group">
 	    				<label class="control-label" for="imgsmall">图片小:</label> 
 	    				<div class="controls">
@@ -72,6 +83,17 @@ if(!array_key_exists('pid', $_GET)){
 	    				<label class="control-label" for="imgsmall">名称:</label> 
 	    				<div class="controls">
 		    				<input type="text" name="name"  class="input-xlarge"/>
+	    				</div>
+	    			</div>
+	    			<div class="control-group">
+	    				<label class="control-label" for="imgsmall">内容页标题:</label> 
+	    				<div class="controls">
+		    				<select name="title">
+		    					<option value="READY TO WEAR">默认READY TO WEAR</option>
+		    					<option value="<?php echo $_GET['list'];?>">显示父分类名称 <?php echo $_GET['list'];?></option>
+		    					<option value="<?php echo $_GET['menu']?>">显示主分类名称 <?php echo $_GET['menu']?></option>
+		    					<option value="<?php echo $_GET['list']." ".$_GET['menu'];?>">显示父分类名称+主分类名称 <?php echo $_GET['list']." ".$_GET['menu'];?></option>
+		    				</select>
 	    				</div>
 	    			</div>
 			  		<div class="control-group">

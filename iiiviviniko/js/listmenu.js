@@ -5,10 +5,10 @@ $(document).ready(function(){
 		$(this).children(".listhidden").css("visibility", "hidden");
 	});
 	
-	$(".images-list > li ").mouseenter(function(){
-		$(this).children("a").children("font").css("display", "block");
-	}).mouseleave(function(){
-		$(this).children("a").children("font").css("display", "none");
-	});
+//	$(".images-list > li ").mouseenter(function(){
+//		$(this).children("a").children("font").css("display", "block");
+//	}).mouseleave(function(){
+//		$(this).children("a").children("font").css("display", "none");
+//	});
 });
 

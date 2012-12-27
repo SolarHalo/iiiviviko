@@ -55,7 +55,7 @@ $imgList = $category->getActivits($menuInfo['id']);
     			<?php 
     				foreach ($imgList as $img){
     			?>
-    			<li><a href="<?php echo $root_path.$img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>"><img src="<?php echo $root_path.$img->img; ?>" /><font style="display: none;"><?php echo $img->name; ?></font></a></li>
+    			<li><a href="<?php echo $root_path.$img->link . "?menu=".$mainMenu; if (array_key_exists('list', $_GET)) echo '&list='.$_GET['list']; echo "&ol=".$img->id;?>"><img src="<?php echo $root_path.$img->img; ?>" /><font ><?php echo $img->name; ?></font></a></li>
     			<?php
     				}
     			?>

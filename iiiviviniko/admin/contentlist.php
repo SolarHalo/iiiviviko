@@ -129,7 +129,7 @@ $(document).ready(function(){
     			?>
     			
     			<li>
-    				<a href="./addimage.php?pid=<?php echo $menuInfo['id']; ?>">
+    				<a href="./addimage.php?menu=<?php echo $pmenu['name'];?>&list=<?php echo $menuInfo['name'];?>&pid=<?php echo $menuInfo['id']; ?>">
     					<img src="../images/addimage.png" alt="添加图片" />
     				</a>
     			</li>

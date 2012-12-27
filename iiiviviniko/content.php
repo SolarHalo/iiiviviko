@@ -98,7 +98,7 @@ $(document).ready(function(){
     		<?php }?>
         </div>
         <div class="cr_content">
-        	<span>READY TO WEAR</span>
+        	<span><?php if(count($pageInfo->title) == 0) echo "READY TO WEAR"; else echo $pageInfo->title;?></span>
             <div class="page">
             	<font><?php echo $nowpage;?></font>
                 <a <?php if($nowpage > 1 ) { ?> href="content.php?menu=<?php echo $mainMenu; if(array_key_exists('list', $_GET)) echo '&list='.$_GET['list'];

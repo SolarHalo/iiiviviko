@@ -12,6 +12,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 		$name = $_POST['name'];
 		$pid = $_POST['pid'];
 		$desc = $_POST['desc'];
+		$title = $_POST['title'];
 		$filename_s = explode(".", $_FILES['imagesmall']['name']);
 		$filename_b = explode(".", $_FILES['imagebig']['name']);
 		$time = date('Y-m-d-H-i-s');
@@ -33,12 +34,13 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 		if($success){
 			$time=date('Y-m-d H:i:s');
 			$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
-				 "imgbig"=>"/imageupload/".implode(".", $filename_b), "createtime" =>$time, "desc"=>$desc );
+				 "imgbig"=>"/imageupload/".implode(".", $filename_b), "createtime" =>$time, "desc"=>$desc, 'title'=>$title );
 			$pagedb->insertPageContent($pagesmall);
 		}
 	}else if($type == "video"){
 		$name = $_POST['name'];
 		$video = $_POST['imagebig'];
+		$title = $_POST['title'];
 		$video =stripcslashes( str_replace(PHP_EOL, '', $video));
 		$desc = $_POST['desc'];
 		$pid = $_POST['pid'];
@@ -55,7 +57,7 @@ if(!(array_key_exists('name', $_POST) && array_key_exists('pid', $_POST)
 		if($success){
 			$time=date('Y-m-d H:i:s');
 			$pagesmall = array("pid"=> $pid, "name"=>$name, "imgsmall"=> "/imageupload/".implode(".", $filename_s),
-				 "imgbig"=>$video, "createtime" =>$time , "desc"=>$desc, "isvideo"=>1);
+				 "imgbig"=>$video, "createtime" =>$time , "desc"=>$desc, "isvideo"=>1, 'title'=>$title);
 			$pagedb->insertPageContent($pagesmall);
 		}
 	}
