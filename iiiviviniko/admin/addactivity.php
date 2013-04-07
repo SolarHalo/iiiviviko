@@ -1,8 +1,9 @@
 <?php
 session_start();
 
-if(isset($_SESSION['user'])){
+if(!isset($_SESSION['user'])){
 	header("Location: index.php");
+	ob_end_flush();
 }
 
 

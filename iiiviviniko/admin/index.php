@@ -8,6 +8,7 @@ if(isset($_GET['username']) && isset($_GET['password'])){
 	if($user =="iiiviviadmin" && $pass['adminiiivivi']){
 		$_SESSION['user'] = iiiviviadmin;
 		header("Location: home.php");
+		ob_end_flush();
 	}else{
 		$error = "用户名密码错误，请重新登录！";
 	}
