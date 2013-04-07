@@ -1,5 +1,18 @@
 <?php
 include '../load.php';
+
+$error="";
+if(isset($_GET['username']) && isset($_GET['password'])){
+	$user = $_GET['username'];
+	$pass = $_GET['password'];
+	if($user =="iiiviviadmin" && $pass['adminiiivivi']){
+		$_SESSION['user'] = iiiviviadmin;
+		header("Location: home.php");
+	}else{
+		$error = "用户名密码错误，请重新登录！";
+	}
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -78,12 +91,14 @@ body {
 
 <div class="container">
 
-<form class="form-signin" action="./home.php">
+<form class="form-signin" action="">
 <h2 class="form-signin-heading">iiiviviniko</h2>
-<input type="text" class="input-block-level" placeholder="Email address"></input>
-<input type="password" class="input-block-level" placeholder="Password"></input>
-<label class="checkbox"> <input type="checkbox" value="remember-me"></input>
-Remember me </label>
+<?php if($error != ""){ ?>
+<span class="alert alert-error"><?php echo $error;?></span>
+<?php }?>
+<input name="username" type="text" class="input-block-level" placeholder="Email address"></input>
+<input name="password" type="password" class="input-block-level" placeholder="Password"></input>
+
 <button id="btn_submit" class="btn btn-large btn-primary" type="submit">Sign
 in</button></form>
 

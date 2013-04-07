@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if(isset($_SESSION['user'])){
+	header("Location: index.php");
+}
+
+
 if(!array_key_exists('pid', $_GET)){
 	header("Location: ".$root_path."/404.php");
 }

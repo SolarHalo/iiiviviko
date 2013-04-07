@@ -1,5 +1,11 @@
 <?php
 include '../load.php';
+
+if(isset($_SESSION['user'])){
+	header("Location: index.php");
+}
+
+
 $method = $_GET['method'];
 
 if($method == "delpage"){

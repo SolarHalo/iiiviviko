@@ -1,6 +1,11 @@
 <?php
 include '../load.php';
 
+if(isset($_SESSION['user'])){
+	header("Location: index.php");
+}
+
+
 $category = new Category($dbutil);
 $storedb = new Store($dbutil);
 $menus = $category->getAllMenu();

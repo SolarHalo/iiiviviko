@@ -1,6 +1,11 @@
 <?php
 include '../load.php';
  
+if(isset($_SESSION['user'])){
+	header("Location: index.php");
+}
+
+
 $storedb = new Store($dbutil);
 
 
